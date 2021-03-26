@@ -1,0 +1,11 @@
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\bin\Debug\net5.0\Joson.Elasticsearch.Net.deps.json
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\bin\Debug\net5.0\Joson.Elasticsearch.Net.dll
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\bin\Debug\net5.0\ref\Joson.Elasticsearch.Net.dll
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\bin\Debug\net5.0\Joson.Elasticsearch.Net.pdb
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\obj\Debug\net5.0\Joson.Elasticsearch.Net.GeneratedMSBuildEditorConfig.editorconfig
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\obj\Debug\net5.0\Joson.Elasticsearch.Net.AssemblyInfoInputs.cache
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\obj\Debug\net5.0\Joson.Elasticsearch.Net.AssemblyInfo.cs
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\obj\Debug\net5.0\Joson.Elasticsearch.Net.csproj.CoreCompileInputs.cache
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\obj\Debug\net5.0\Joson.Elasticsearch.Net.dll
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\obj\Debug\net5.0\ref\Joson.Elasticsearch.Net.dll
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\obj\Debug\net5.0\Joson.Elasticsearch.Net.pdb

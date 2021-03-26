@@ -1,0 +1,8 @@
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\obj\Debug\netcoreapp3.1\Joson.Elasticsearch.Net.AssemblyInfoInputs.cache
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\obj\Debug\netcoreapp3.1\Joson.Elasticsearch.Net.AssemblyInfo.cs
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\obj\Debug\netcoreapp3.1\Joson.Elasticsearch.Net.csproj.CoreCompileInputs.cache
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\bin\Debug\netcoreapp3.1\Joson.Elasticsearch.Net.deps.json
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\bin\Debug\netcoreapp3.1\Joson.Elasticsearch.Net.dll
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\bin\Debug\netcoreapp3.1\Joson.Elasticsearch.Net.pdb
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\obj\Debug\netcoreapp3.1\Joson.Elasticsearch.Net.dll
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\obj\Debug\netcoreapp3.1\Joson.Elasticsearch.Net.pdb

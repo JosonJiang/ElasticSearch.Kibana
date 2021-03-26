@@ -1,0 +1,284 @@
+2020-12-17 20:29:22.3354 Info Message Template Auto Format enabled
+2020-12-17 20:29:22.3634 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-17 20:29:22.4484 Info Adding target FileTarget(Name=allfile)
+2020-12-17 20:29:22.4484 Info Adding target FileTarget(Name=ownFile-web)
+2020-12-17 20:29:22.4704 Warn Error when setting '${basedir}/logs/Debug/nlog-Debug-${shortdate}.log' on attibute 'fileName' Exception: System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+2020-12-17 20:29:22.6634 Error Exception when parsing E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config.  Exception: System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2020-12-17 20:29:22.6704 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config. 
+ ---> System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2020-12-17 20:29:22.7074 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=42, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2020-12-17 20:29:22.7214 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: allfile
+2020-12-17 20:29:22.7214 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-12-17 20:29:22.7454 Info Configuration initialized.
+2020-12-17 20:29:22.7454 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2020-12-17 20:34:06.5707 Info Message Template Auto Format enabled
+2020-12-17 20:34:06.6597 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-17 20:34:06.7417 Info Adding target FileTarget(Name=AllFile)
+2020-12-17 20:34:06.7477 Info Adding target FileTarget(Name=TraceFile)
+2020-12-17 20:34:06.7477 Warn Error when setting '${basedir}/logs/Debug/nlog-Debug-${shortdate}.log' on attibute 'fileName' Exception: System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+2020-12-17 20:34:06.8917 Error Exception when parsing E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config.  Exception: System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2020-12-17 20:34:06.8917 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config. 
+ ---> System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2020-12-17 20:34:06.9387 Info Validating config: TargetNames=AllFile, TraceFile, ConfigItems=42, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2020-12-17 20:34:06.9547 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: AllFile
+2020-12-17 20:34:06.9547 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: TraceFile
+2020-12-17 20:34:06.9867 Info Configuration initialized.
+2020-12-17 20:34:06.9947 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2020-12-17 20:35:39.8620 Info Message Template Auto Format enabled
+2020-12-17 20:35:39.8880 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-17 20:35:39.9620 Info Adding target FileTarget(Name=AllFile)
+2020-12-17 20:35:39.9620 Info Adding target FileTarget(Name=TraceFile)
+2020-12-17 20:35:39.9780 Warn Error when setting '${basedir}/logs/Debug/nlog-Debug-${shortdate}.log' on attibute 'fileName' Exception: System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+2020-12-17 20:35:40.0990 Error Exception when parsing E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config.  Exception: System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2020-12-17 20:35:40.0990 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config. 
+ ---> System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2020-12-17 20:35:40.1450 Info Validating config: TargetNames=AllFile, TraceFile, ConfigItems=42, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2020-12-17 20:35:40.1680 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: AllFile
+2020-12-17 20:35:40.1790 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: TraceFile
+2020-12-17 20:35:40.2060 Info Configuration initialized.
+2020-12-17 20:35:40.2060 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2020-12-17 20:38:24.1374 Info Message Template Auto Format enabled
+2020-12-17 20:38:24.1774 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-17 20:38:24.2704 Info Adding target FileTarget(Name=AllFile)
+2020-12-17 20:38:24.2804 Info Adding target FileTarget(Name=TraceFile)
+2020-12-17 20:38:24.2904 Warn Error when setting '${basedir}/logs/Debug/nlog-Debug-${shortdate}.log' on attibute 'fileName' Exception: System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+2020-12-17 20:38:24.4744 Error Exception when parsing E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config.  Exception: System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2020-12-17 20:38:24.4744 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config. 
+ ---> System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2020-12-17 20:38:24.5194 Info Validating config: TargetNames=AllFile, TraceFile, ConfigItems=42, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2020-12-17 20:38:24.5374 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: AllFile
+2020-12-17 20:38:24.5374 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: TraceFile
+2020-12-17 20:38:24.5744 Info Configuration initialized.
+2020-12-17 20:38:24.5834 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2020-12-17 20:40:32.8327 Info Message Template Auto Format enabled
+2020-12-17 20:40:32.9068 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-17 20:40:32.9978 Info Adding target FileTarget(Name=AllFile)
+2020-12-17 20:40:33.0078 Info Adding target FileTarget(Name=TraceFile)
+2020-12-17 20:40:33.0228 Warn Error when setting '${basedir}/logs/Debug/nlog-Debug-${shortdate}.log' on attibute 'fileName' Exception: System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+2020-12-17 20:40:33.1598 Error Exception when parsing E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config.  Exception: System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2020-12-17 20:40:33.1598 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config. 
+ ---> System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2020-12-17 20:40:33.2038 Info Validating config: TargetNames=AllFile, TraceFile, ConfigItems=42, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2020-12-17 20:40:33.2198 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: AllFile
+2020-12-17 20:40:33.2278 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: TraceFile
+2020-12-17 20:40:33.2488 Info Configuration initialized.
+2020-12-17 20:40:33.2568 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2020-12-17 20:43:34.9892 Info Message Template Auto Format enabled
+2020-12-17 20:43:35.0192 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-17 20:43:35.0872 Info Adding target FileTarget(Name=AllFile)
+2020-12-17 20:43:35.0872 Info Adding target FileTarget(Name=TraceFile)
+2020-12-17 20:43:35.1062 Info Adding target FileTarget(Name=JosonFile)
+2020-12-17 20:43:35.1262 Info Adding target BufferingTargetWrapper(Name=elastic)
+2020-12-17 20:43:35.2272 Info Validating config: TargetNames=AllFile, JosonFile, elastic, ConfigItems=90, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2020-12-17 20:43:35.2492 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: TraceFile
+2020-12-17 20:43:35.4192 Info Configuration initialized.
+2020-12-17 20:43:35.4412 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2020-12-17 20:45:08.5205 Info Message Template Auto Format enabled
+2020-12-17 20:45:08.5445 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-17 20:45:08.6085 Info Adding target FileTarget(Name=AllFile)
+2020-12-17 20:45:08.6195 Info Adding target FileTarget(Name=TraceFile)
+2020-12-17 20:45:08.6295 Info Adding target FileTarget(Name=JosonFile)
+2020-12-17 20:45:08.6465 Info Adding target BufferingTargetWrapper(Name=elastic)
+2020-12-17 20:45:08.8775 Info Validating config: TargetNames=AllFile, TraceFile, JosonFile, elastic, ConfigItems=92, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2020-12-17 20:45:09.0375 Info Configuration initialized.
+2020-12-17 20:45:09.0375 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2020-12-17 20:47:28.7785 Info Message Template Auto Format enabled
+2020-12-17 20:47:28.8165 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-17 20:47:28.8955 Info Adding target FileTarget(Name=AllFile)
+2020-12-17 20:47:28.9055 Info Adding target FileTarget(Name=TraceFile)
+2020-12-17 20:47:28.9055 Info Adding target FileTarget(Name=JosonFile)
+2020-12-17 20:47:28.9295 Info Adding target BufferingTargetWrapper(Name=elastic)
+2020-12-17 20:47:29.0446 Info Validating config: TargetNames=AllFile, TraceFile, JosonFile, elastic, ConfigItems=93, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2020-12-17 20:47:29.2186 Info Configuration initialized.
+2020-12-17 20:47:29.2186 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2020-12-17 20:48:51.2853 Info Message Template Auto Format enabled
+2020-12-17 20:48:51.4713 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-17 20:48:51.6083 Info Adding target FileTarget(Name=AllFile)
+2020-12-17 20:48:51.6193 Info Adding target FileTarget(Name=TraceFile)
+2020-12-17 20:48:51.6193 Warn Error when setting '${basedir}/logs/Debug/nlog-Debug-${shortdate}.log' on attibute 'fileName' Exception: System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+2020-12-17 20:48:51.7873 Error Exception when parsing E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config.  Exception: System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2020-12-17 20:48:51.8003 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config. 
+ ---> System.NotSupportedException: Parameter fileName not supported on DebuggerTarget
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2020-12-17 20:48:51.8343 Info Validating config: TargetNames=AllFile, TraceFile, ConfigItems=42, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2020-12-17 20:48:51.8503 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: AllFile
+2020-12-17 20:48:51.8503 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: TraceFile
+2020-12-17 20:48:51.8833 Info Configuration initialized.
+2020-12-17 20:48:51.8833 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2020-12-17 21:01:28.5966 Info Message Template Auto Format enabled
+2020-12-17 21:01:28.6616 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-17 21:01:28.7456 Info Adding target FileTarget(Name=AllFile)
+2020-12-17 21:01:28.7536 Info Adding target FileTarget(Name=TraceFile)
+2020-12-17 21:01:28.7646 Info Adding target FileTarget(Name=DebugFile)
+2020-12-17 21:01:28.7646 Info Adding target FileTarget(Name=JosonFile)
+2020-12-17 21:01:28.7846 Info Adding target FileTarget(Name=ErrorFile)
+2020-12-17 21:01:28.7966 Info Adding target ColoredConsoleTarget(Name=console)
+2020-12-17 21:01:28.7966 Info Adding target DebuggerTarget(Name=debugger)
+2020-12-17 21:01:28.7966 Info Adding target MailTarget(Name=InfoMail)
+2020-12-17 21:01:28.8176 Info Adding target BufferingTargetWrapper(Name=elastic)
+2020-12-17 21:01:28.9416 Info Validating config: Targets=6, ConfigItems=159, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2020-12-17 21:01:28.9636 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2020-12-17 21:01:28.9736 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: debugger
+2020-12-17 21:01:28.9846 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: InfoMail
+2020-12-17 21:01:29.1746 Info Configuration initialized.
+2020-12-17 21:01:29.1746 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2020-12-17 21:02:54.1935 Info Message Template Auto Format enabled
+2020-12-17 21:02:54.2305 Info Loading assembly: NLog.Web.AspNetCore
+2020-12-17 21:02:54.3115 Info Adding target FileTarget(Name=AllFile)
+2020-12-17 21:02:54.3205 Info Adding target FileTarget(Name=TraceFile)
+2020-12-17 21:02:54.3315 Info Adding target FileTarget(Name=DebugFile)
+2020-12-17 21:02:54.3315 Info Adding target FileTarget(Name=JosonFile)
+2020-12-17 21:02:54.3525 Info Adding target FileTarget(Name=ErrorFile)
+2020-12-17 21:02:54.3665 Info Adding target ColoredConsoleTarget(Name=console)
+2020-12-17 21:02:54.3665 Info Adding target DebuggerTarget(Name=debugger)
+2020-12-17 21:02:54.3795 Info Adding target MailTarget(Name=InfoMail)
+2020-12-17 21:02:54.3935 Info Adding target BufferingTargetWrapper(Name=elastic)
+2020-12-17 21:02:54.5005 Info Validating config: Targets=6, ConfigItems=159, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2020-12-17 21:02:54.5455 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2020-12-17 21:02:54.5585 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: debugger
+2020-12-17 21:02:54.5665 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: InfoMail
+2020-12-17 21:02:54.7765 Info Configuration initialized.
+2020-12-17 21:02:54.7855 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2020-12-17 21:02:56.1096 Info FileTarget(Name=ErrorFile): Archiving E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.log to E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.0.log
+2020-12-17 21:02:56.1906 Info FileTarget(Name=ErrorFile): Archiving E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.log to E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.1.log
+2020-12-17 21:04:57.0335 Info FileTarget(Name=ErrorFile): Archiving E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.log to E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.2.log
+2020-12-17 21:04:57.1355 Info FileTarget(Name=ErrorFile): Archiving E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.log to E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.3.log
+2020-12-17 21:04:58.4966 Info FileTarget(Name=ErrorFile): Archiving E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.log to E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.4.log
+2020-12-17 21:04:58.6336 Info FileTarget(Name=ErrorFile): Archiving E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.log to E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.5.log

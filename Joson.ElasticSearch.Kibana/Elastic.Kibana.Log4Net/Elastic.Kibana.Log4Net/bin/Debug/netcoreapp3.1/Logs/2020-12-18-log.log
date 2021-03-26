@@ -1,0 +1,212 @@
+2020-12-18 11:32:39,865 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
+2020-12-18 11:32:39,883 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
+2020-12-18 11:32:39,889 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-12-18 11:32:39,889 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-12-18 11:32:39,895 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-12-18 11:32:39,895 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-12-18 11:32:39,901 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-12-18 11:32:39,901 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-12-18 11:32:39,906 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2020-12-18 11:32:39,907 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2020-12-18 11:33:10,006 [15] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:33:10,007 [15] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:33:10,031 [15] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:33:10,031 [15] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:33:10,051 [15] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:33:10,056 [15] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:33:10,061 [15] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:33:10,061 [15] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:33:12,003 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:33:12,004 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:33:12,011 [4] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:33:12,011 [4] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:33:12,018 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:33:12,018 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:33:12,026 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:33:12,026 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:33:13,172 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:33:13,173 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:33:13,180 [4] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:33:13,181 [4] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:33:13,191 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:33:13,192 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:33:13,198 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:33:13,198 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:33:48,628 [21] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:33:48,629 [21] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:33:48,635 [21] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:33:48,635 [21] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:33:48,641 [21] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:33:48,641 [21] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:33:48,648 [21] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:33:48,648 [21] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:33:54,008 [20] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:33:54,009 [20] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:33:54,040 [20] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:33:54,040 [20] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:33:54,147 [20] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:33:54,147 [20] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:33:54,182 [20] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:33:54,182 [20] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:34:02,548 [20] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:34:02,548 [20] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:34:02,555 [20] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:34:02,555 [20] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:34:02,602 [20] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:34:02,602 [20] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:34:02,614 [20] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:34:02,615 [20] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:36:10,238 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
+2020-12-18 11:36:10,540 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
+2020-12-18 11:36:10,553 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-12-18 11:36:10,554 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-12-18 11:36:10,563 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-12-18 11:36:10,564 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-12-18 11:36:10,585 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-12-18 11:36:10,586 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-12-18 11:36:10,593 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2020-12-18 11:36:10,594 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2020-12-18 11:37:31,206 [16] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:37:31,238 [16] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:37:31,249 [16] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:37:31,250 [16] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:37:31,259 [16] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:37:31,263 [16] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:37:31,269 [16] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:37:31,271 [16] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:37:53,194 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:37:53,202 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:37:53,210 [9] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:37:53,211 [9] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:37:53,217 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:37:53,219 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:37:53,231 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:37:53,232 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:38:04,484 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:38:04,487 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:38:04,493 [4] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:38:04,494 [4] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:38:04,502 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:38:04,504 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:38:04,511 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:38:04,512 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:39:57,529 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
+2020-12-18 11:39:57,708 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
+2020-12-18 11:39:57,714 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-12-18 11:39:57,715 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-12-18 11:39:57,720 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-12-18 11:39:57,720 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-12-18 11:39:57,725 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-12-18 11:39:57,725 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-12-18 11:39:57,732 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2020-12-18 11:39:57,732 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2020-12-18 11:40:09,342 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:40:09,370 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:40:09,379 [4] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:40:09,381 [4] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:40:09,389 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:40:09,394 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:40:09,414 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:40:09,415 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:48:08,129 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
+2020-12-18 11:48:08,577 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
+2020-12-18 11:48:08,587 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-12-18 11:48:08,588 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-12-18 11:48:08,600 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-12-18 11:48:08,603 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-12-18 11:48:08,614 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-12-18 11:48:08,615 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-12-18 11:48:08,630 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2020-12-18 11:48:08,631 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2020-12-18 11:50:04,998 [11] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:50:05,032 [11] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:50:05,039 [11] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:50:05,040 [11] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:50:05,051 [11] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:50:05,055 [11] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:50:05,064 [11] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:50:05,065 [11] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:51:55,359 [24] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:51:55,363 [24] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:51:55,373 [24] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:51:55,374 [24] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - request /WeatherForecast
+2020-12-18 11:51:55,387 [24] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:51:55,388 [24] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:51:55,399 [24] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:51:55,400 [24] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:54:08,601 [8] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:54:08,603 [8] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:55:46,603 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
+2020-12-18 11:55:46,789 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
+2020-12-18 11:55:46,796 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-12-18 11:55:46,797 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-12-18 11:55:46,802 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-12-18 11:55:46,803 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-12-18 11:55:46,810 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-12-18 11:55:46,811 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-12-18 11:55:46,817 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2020-12-18 11:55:46,818 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2020-12-18 11:55:48,374 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:55:48,420 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:55:48,452 [9] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2020-12-18 11:55:48,453 [9] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2020-12-18 11:55:48,478 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:55:48,489 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:55:48,529 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:55:48,531 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:55:48,549 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 错误信息 executed at 12/18/2020 03:55:48
+2020-12-18 11:55:48,555 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 错误信息 executed at 12/18/2020 03:55:48
+2020-12-18 11:55:48,573 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/18/2020 03:55:48
+2020-12-18 11:55:48,576 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/18/2020 03:55:48
+2020-12-18 11:55:48,602 [9] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/18/2020 03:55:48
+2020-12-18 11:55:48,604 [9] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/18/2020 03:55:48
+2020-12-18 11:55:50,573 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:55:50,580 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2020-12-18 11:55:50,587 [9] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2020-12-18 11:55:50,588 [9] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2020-12-18 11:55:50,597 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:55:50,598 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2020-12-18 11:55:50,606 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:55:50,608 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2020-12-18 11:55:50,635 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 错误信息 executed at 12/18/2020 03:55:50
+2020-12-18 11:55:50,636 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 错误信息 executed at 12/18/2020 03:55:50
+2020-12-18 11:55:50,649 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/18/2020 03:55:50
+2020-12-18 11:55:50,652 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/18/2020 03:55:50
+2020-12-18 11:55:50,666 [9] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/18/2020 03:55:50
+2020-12-18 11:55:50,685 [9] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/18/2020 03:55:50
+2020-12-18 11:56:15,112 [25] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - LogError Joson调试信息 executed at 12/18/2020 03:56:15
+2020-12-18 11:56:15,114 [25] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - LogError Joson调试信息 executed at 12/18/2020 03:56:15
+2020-12-18 11:56:15,124 [25] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - LogWarning Joson调试信息 executed at 12/18/2020 03:56:15
+2020-12-18 11:56:15,127 [25] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - LogWarning Joson调试信息 executed at 12/18/2020 03:56:15
+2020-12-18 11:56:15,141 [25] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - Get Joson调试信息 executed at 12/18/2020 03:56:15
+2020-12-18 11:56:15,143 [25] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - Get Joson调试信息 executed at 12/18/2020 03:56:15
+2020-12-18 11:56:15,156 [25] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - LogCritical Joson调试信息 executed at 12/18/2020 03:56:15
+2020-12-18 11:56:15,157 [25] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - LogCritical Joson调试信息 executed at 12/18/2020 03:56:15

@@ -1,0 +1,23 @@
+
+ASP.NET Core 利用 Docker、ElasticSearch、Kibana 来记录日志
+
+https://blog.csdn.net/sd7o95o/article/details/89368561?utm_medium=distribute.pc_relevant_bbs_down.none-task-blog-baidujs-2.nonecase&depth_1-utm_source=distribute.pc_relevant_bbs_down.none-task-blog-baidujs-2.nonecase
+
+
+
+Asp.NetCore+Elasticsearch+Kibana日志记录
+
+https://www.cnblogs.com/jimmyLei/p/11284598.html
+
+
+
+
+
+Logging with ElasticSearch, Kibana, ASP.NET Core and Docker
+
+
+
+https://blog.csdn.net/kaixincheng2009/article/details/107527264?utm_medium=distribute.pc_relevant.none-task-blog-title-12&spm=1001.2101.3001.4242
+
+
+

@@ -1,0 +1,21 @@
+.Net Core 实践 - 使用log4net记录日志（3）— log4net向ElasticSearch写日志
+
+https://blog.csdn.net/u014654707/article/details/86539070
+
+
+
+
+Asp.net Core + Log4net + ELK 搭建日志中心
+https://www.cnblogs.com/rstar/p/10156619.html
+
+
+
+
+.NET Core 日志收集（log4net+Kafka+ELK）
+https://www.jianshu.com/p/e4d3bec9e220?utm_source=oschina-app
+
+
+ 
+.NetCore 3.1 Log4net 记录全局异常日志、api 日志
+
+https://www.nps.ink/393915.html

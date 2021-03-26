@@ -1,0 +1,21 @@
+2020-12-18 09:22:53.7300 INFO  Application started. Press Ctrl+C to shut down.  <>c.<ExecuteCallback>b__9_0 => <>c.<WaitForStartAsync>b__20_0 => ConsoleLifetime.OnApplicationStarted 
+  
+
+2020-12-18 09:22:54.0930 ERROR  LogError 寒鹏JosonJiangNLogController executed at 12/18/2020 01:22:54  <Execute>d__0.MoveNext => <no type>.lambda_method7 => NLogController.Get 
+  
+
+2020-12-18 09:22:55.1041 INFO  Hosting environment: Development  <>c.<ExecuteCallback>b__9_0 => <>c.<WaitForStartAsync>b__20_0 => ConsoleLifetime.OnApplicationStarted 
+  
+
+2020-12-18 09:22:55.1701 WARN  LogWarning 寒鹏JosonJiangNLogController executed at 12/18/2020 01:22:55  <Execute>d__0.MoveNext => <no type>.lambda_method7 => NLogController.Get 
+  
+
+2020-12-18 09:22:55.2431 INFO  Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog  <>c.<ExecuteCallback>b__9_0 => <>c.<WaitForStartAsync>b__20_0 => ConsoleLifetime.OnApplicationStarted 
+  
+
+2020-12-18 09:22:55.3221 INFO  Get 寒鹏JosonJiangNLogController executed at 12/18/2020 01:22:55  <Execute>d__0.MoveNext => <no type>.lambda_method7 => NLogController.Get 
+  
+
+2020-12-18 09:22:55.5081 FATAL  LogCritical 寒鹏JosonJiangNLogController executed at 12/18/2020 01:22:55  <Execute>d__0.MoveNext => <no type>.lambda_method7 => NLogController.Get 
+  
+

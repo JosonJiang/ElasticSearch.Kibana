@@ -1,0 +1,70 @@
+2020-12-18 08:53:31.671 +08:00 [INF] User profile is available. Using 'C:\Users\Joson\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-18 08:53:32.470 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-18 08:53:32.470 +08:00 [INF] Hosting environment: Development
+2020-12-18 08:53:32.470 +08:00 [INF] Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Serilog\Elastic.Kibana.Serilog
+2020-12-18 08:53:32.547 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44381/  
+2020-12-18 08:53:32.588 +08:00 [INF] Executing endpoint 'Elastic.Kibana.Serilog.Controllers.HomeController.Index (Elastic.Kibana.Serilog)'
+2020-12-18 08:53:32.643 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Elastic.Kibana.Serilog.Controllers.HomeController (Elastic.Kibana.Serilog).
+2020-12-18 08:53:32.694 +08:00 [INF] HomeController Index executed at "2020-12-18T00:53:32.6943014Z"
+2020-12-18 08:53:32.780 +08:00 [INF] oh there! :Some bad code was executed| 2020/12/18 0:53:32
+2020-12-18 08:53:32.781 +08:00 [ERR] An unknown error occurred on the Index action of the HomeController
+System.Exception: Some bad code was executed
+   at Elastic.Kibana.Serilog.Controllers.HomeController.Index() in E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Serilog\Elastic.Kibana.Serilog\Controllers\HomeController.cs:line 38
+2020-12-18 08:53:33.035 +08:00 [INF] Executing ViewResult, running view Index.
+2020-12-18 08:53:33.308 +08:00 [INF] Executed ViewResult - view Index executed in 280.2177ms.
+2020-12-18 08:53:33.310 +08:00 [INF] Executed action Elastic.Kibana.Serilog.Controllers.HomeController.Index (Elastic.Kibana.Serilog) in 662.5668ms
+2020-12-18 08:53:33.311 +08:00 [INF] Executed endpoint 'Elastic.Kibana.Serilog.Controllers.HomeController.Index (Elastic.Kibana.Serilog)'
+2020-12-18 08:53:33.315 +08:00 [INF] Request finished in 773.1371ms 200 text/html; charset=utf-8
+2020-12-18 08:53:33.388 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44381/lib/bootstrap/dist/css/bootstrap.min.css  
+2020-12-18 08:53:33.391 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44381/css/site.css  
+2020-12-18 08:53:33.411 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Serilog\Elastic.Kibana.Serilog\wwwroot\css\site.css'
+2020-12-18 08:53:33.412 +08:00 [INF] Request finished in 20.081ms 200 text/css
+2020-12-18 08:53:33.419 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Serilog\Elastic.Kibana.Serilog\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2020-12-18 08:53:33.420 +08:00 [INF] Request finished in 32.4608ms 200 text/css
+2020-12-18 08:53:33.533 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44381/favicon.ico  
+2020-12-18 08:53:33.535 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Serilog\Elastic.Kibana.Serilog\wwwroot\favicon.ico'
+2020-12-18 08:53:33.536 +08:00 [INF] Request finished in 2.7201ms 200 image/x-icon
+2020-12-18 08:55:29.110 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44381/  
+2020-12-18 08:55:29.111 +08:00 [INF] Executing endpoint 'Elastic.Kibana.Serilog.Controllers.HomeController.Index (Elastic.Kibana.Serilog)'
+2020-12-18 08:55:29.114 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Elastic.Kibana.Serilog.Controllers.HomeController (Elastic.Kibana.Serilog).
+2020-12-18 08:55:29.115 +08:00 [INF] HomeController Index executed at "2020-12-18T00:55:29.1159603Z"
+2020-12-18 08:55:29.185 +08:00 [INF] oh there! :Some bad code was executed| 2020/12/18 0:55:29
+2020-12-18 08:55:29.186 +08:00 [ERR] An unknown error occurred on the Index action of the HomeController
+System.Exception: Some bad code was executed
+   at Elastic.Kibana.Serilog.Controllers.HomeController.Index() in E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Serilog\Elastic.Kibana.Serilog\Controllers\HomeController.cs:line 38
+2020-12-18 08:55:29.204 +08:00 [INF] Executing ViewResult, running view Index.
+2020-12-18 08:55:29.218 +08:00 [INF] Executed ViewResult - view Index executed in 23.3982ms.
+2020-12-18 08:55:29.218 +08:00 [INF] Executed action Elastic.Kibana.Serilog.Controllers.HomeController.Index (Elastic.Kibana.Serilog) in 103.7077ms
+2020-12-18 08:55:29.219 +08:00 [INF] Executed endpoint 'Elastic.Kibana.Serilog.Controllers.HomeController.Index (Elastic.Kibana.Serilog)'
+2020-12-18 08:55:29.219 +08:00 [INF] Request finished in 111.948ms 200 text/html; charset=utf-8
+2020-12-18 08:55:29.251 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44381/css/site.css  
+2020-12-18 08:55:29.251 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44381/lib/bootstrap/dist/css/bootstrap.min.css  
+2020-12-18 08:55:29.290 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Serilog\Elastic.Kibana.Serilog\wwwroot\css\site.css'
+2020-12-18 08:55:29.291 +08:00 [INF] Request finished in 40.041ms 200 text/css
+2020-12-18 08:55:29.325 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Serilog\Elastic.Kibana.Serilog\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2020-12-18 08:55:29.325 +08:00 [INF] Request finished in 74.6331ms 200 text/css
+2020-12-18 08:55:29.460 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44381/favicon.ico  
+2020-12-18 08:55:29.478 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Serilog\Elastic.Kibana.Serilog\wwwroot\favicon.ico'
+2020-12-18 08:55:29.479 +08:00 [INF] Request finished in 18.8062ms 200 image/x-icon
+2020-12-18 08:56:16.102 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44381/  
+2020-12-18 08:56:16.103 +08:00 [INF] Executing endpoint 'Elastic.Kibana.Serilog.Controllers.HomeController.Index (Elastic.Kibana.Serilog)'
+2020-12-18 08:56:16.106 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Elastic.Kibana.Serilog.Controllers.HomeController (Elastic.Kibana.Serilog).
+2020-12-18 08:56:16.108 +08:00 [INF] HomeController Index executed at "2020-12-18T00:56:16.1086481Z"
+2020-12-18 08:56:16.190 +08:00 [INF] oh there! :Some bad code was executed| 2020/12/18 0:56:16
+2020-12-18 08:56:16.190 +08:00 [ERR] An unknown error occurred on the Index action of the HomeController
+System.Exception: Some bad code was executed
+   at Elastic.Kibana.Serilog.Controllers.HomeController.Index() in E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Serilog\Elastic.Kibana.Serilog\Controllers\HomeController.cs:line 38
+2020-12-18 08:56:16.192 +08:00 [INF] Executing ViewResult, running view Index.
+2020-12-18 08:56:16.195 +08:00 [INF] Executed ViewResult - view Index executed in 2.8149ms.
+2020-12-18 08:56:16.195 +08:00 [INF] Executed action Elastic.Kibana.Serilog.Controllers.HomeController.Index (Elastic.Kibana.Serilog) in 87.6333ms
+2020-12-18 08:56:16.196 +08:00 [INF] Executed endpoint 'Elastic.Kibana.Serilog.Controllers.HomeController.Index (Elastic.Kibana.Serilog)'
+2020-12-18 08:56:16.196 +08:00 [INF] Request finished in 93.408ms 200 text/html; charset=utf-8
+2020-12-18 08:56:16.236 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44381/css/site.css  
+2020-12-18 08:56:16.236 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44381/lib/bootstrap/dist/css/bootstrap.min.css  
+2020-12-18 08:56:16.260 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Serilog\Elastic.Kibana.Serilog\wwwroot\css\site.css'
+2020-12-18 08:56:16.260 +08:00 [INF] Request finished in 23.784ms 200 text/css
+2020-12-18 08:56:16.265 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Serilog\Elastic.Kibana.Serilog\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2020-12-18 08:56:16.265 +08:00 [INF] Request finished in 28.9465ms 200 text/css
+2020-12-18 08:56:16.450 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44381/favicon.ico  
+2020-12-18 08:56:16.461 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Serilog\Elastic.Kibana.Serilog\wwwroot\favicon.ico'
+2020-12-18 08:56:16.462 +08:00 [INF] Request finished in 11.3999ms 200 image/x-icon
