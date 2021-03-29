@@ -49,11 +49,11 @@ namespace Joson.ElasticSearch.Api
             var r = _Clients.Index(new SearchInfo()
             {
                 Id = 0,
-                Name = "测试数据1",
+                Name = "西山水来自上海",
                 AddTime = DateTime.Now,
                 CreateTime = DateTime.Now,
                 Deleted = false,
-                Dic = "测试内容测试内容测试内容测试内容测试内容测试内容测试内容测试内容",
+                Dic = "上海自来水来自海上，山西悬空寺空悬西山。",
                 Dvalue = 222222222222.2222,
                 Group = 1,
                 PassingRate = float.MaxValue,
@@ -65,6 +65,34 @@ namespace Joson.ElasticSearch.Api
 
             #region test data
             int index = 1;
+
+            _Clients.Index(new SearchInfo()
+            {
+                Id = index++,
+                Deleted = false,
+                Name = "葵花籽",
+                Dic = "一种植物，叫向日葵成熟后可以采摘葵花籽。",
+                AddTime = DateTime.Now
+            }, IndexName);
+
+            _Clients.Index(new SearchInfo()
+            {
+                Id = index++,
+                Deleted = false,
+                Name = "菜籽油",
+                Dic = "一种植物油，叫菜籽油，是油菜花籽压榨的。",
+                AddTime = DateTime.Now
+            }, IndexName);
+
+            _Clients.Index(new SearchInfo()
+            {
+                Id = index++,
+                Deleted = false,
+                Name = "油菜籽",
+                Dic = "一种植物，叫油菜籽。",
+                AddTime = DateTime.Now
+            }, IndexName);
+
             _Clients.Index(new SearchInfo()
             {
                 Id = index++,
@@ -105,8 +133,17 @@ namespace Joson.ElasticSearch.Api
             {
                 Id = index++,
                 Deleted = false,
-                Name = "橘子",
-                Dic = "一种水果，叫桔子。",
+                Name = "苹果醋",
+                Dic = "一种饮料，叫苹果醋。",
+                AddTime = DateTime.Now
+            }, IndexName);
+
+            _Clients.Index(new SearchInfo()
+            {
+                Id = index++,
+                Deleted = false,
+                Name = "醋",
+                Dic = "一种饮料醋，叫水果醋。",
                 AddTime = DateTime.Now
             }, IndexName);
 
@@ -126,12 +163,12 @@ namespace Joson.ElasticSearch.Api
                 lists.Add(new SearchInfo()
                 {
                     Id = i,
-                    Name = "测试数据" + i,
+                    Name = "西山寺悬空" + i,
                     AddTime = DateTime.Now,
                     CreateTime = DateTime.Now,
                     Deleted = false,
-                    Dic = i + "测试内容测试内容测试内容测试内容测试内容测试内容测试内容测试内容",
-                    Dvalue = 222222222222.2222,
+                    Dic = i + "上海自来水来自海上，山西悬空寺空悬西山。",
+                    Dvalue = 99999.99999,
                     Group = 1,
                     PassingRate = float.MaxValue,
                     State = 1
@@ -159,15 +196,15 @@ namespace Joson.ElasticSearch.Api
 
 
         [HttpGet("UpdateByWhere/{IndexName}/{oValue}")]
-        public IActionResult Get(string oValue,string nValue)
+        public IActionResult Get(string oValue, string nValue)
         {
             string script = "ctx._source.Name = params.newName;";
             var scriptParams = new Dictionary<string, object> { { "newName", nValue } };
 
             Func<TermQueryDescriptor<SearchInfo>, ITermQuery> selector = X => X.Field(Q => Q.Name).Value(oValue);
-     
+
             var r = _Clients.UpdateByWhere<SearchInfo>(IndexName, selector, script, scriptParams);
- 
+
             return Ok(r);
 
         }
@@ -176,7 +213,6 @@ namespace Joson.ElasticSearch.Api
         public IActionResult GetUpdateMap(string nKey, string nValue)
         {
             var r = _Clients.UpdateMap<SearchInfo>(IndexName, nKey, nValue);
-
 
             var lists = new List<dynamic>();
             for (int i = 0; i < 10; i++)
@@ -236,39 +272,85 @@ namespace Joson.ElasticSearch.Api
                 .Index(IndexName)
                        .Query(q => q
                            .Bool(b => b
-                               .Must(m => m
-                               .Match(mt => mt
-                                   .Field(fd => fd.Dic)
-                                   .Query("油菜花")
-                                    )
+                                .Should(m => m.Term(mt => mt.Name, "黄瓜") || m.Term(mt => mt.Name, "菜花")) //或
+                                .MustNot(m => m.Term(mt => mt.Name, "油菜花"))                               //非  
+                                .Must(m => m.Match(mt => mt
+                                               .Field(fd => fd.Dic)
+                                               .Query("菜花")
+                                                )
                                 )
                            )
                        )
-               .DocValueFields(fdf => fdf.Fields(fd => fd.Dic, fd => fd.Name))//查看实际内容 结果在 result.Fields 中
+               .DocValueFields(Doc => Doc.Fields(fd => fd.Name, fd => fd.Dic, fd => fd.DicKeyword))//查看实际内容 结果在 result.Fields 中
                .Size(10)
-       );
+
+               //.Sort(x => x.Descending<long>(o => o.Id))
+               .Highlight(h => h
+                  .PreTags("<em class=\"red\">")
+                  .PostTags("</em>")
+                  .Fields(
+                      f => f.Field(obj => obj.Dic),
+                      f => f.Field(obj => obj.Name)
+                    ).FragmentSize(800000).NumberOfFragments(0).RequireFieldMatch(false)
+                    .Order(HighlighterOrder.Score)
+                )//不切割数据
+            );
 
             var sCount = result.Hits.Count;
 
+            Dictionary<string, List<string>> Dict = new Dictionary<string, List<string>>();
+
+            result.Hits.ToList().ForEach(x =>
+            {
+  
+                var Score = x.Score;
+                var val = x.Highlight.Values.ToList();
+                var HighlightVals = String.Join("|", val.ToList()[0]);
+
+
+                var HighlightVal = Convert.ToString(Score);
+                List<string> lst = new List<string>();
+                val.ForEach(o =>
+                {
+
+                    HighlightVal = String.Join("|", o);
+                    lst.Add(HighlightVal);
+
+                });
+
+                Dict.Add($"{ x.Id }|{ x.Source.Name }|=>{ Score}", lst);
+
+            });
+
             var results = _client.Search<SearchInfo>(s => s
-                .Index(IndexName)
-                       .Query(q => q
-                           .Bool(b => b
-                               .Must(m => m
-                               .Match(mt => mt
-                                   .Field(fd => fd.Dic)
-                                   .Query("苹果")
+                         .Index(IndexName)
+                                .Query(q => q
+                                    .Bool(b => b
+                                        .Must(m => m
+                                        .Match(mt => mt
+                                            .Field(fd => fd.Dic)
+                                            .Query("苹果")
+                                             )
+                                         )
                                     )
                                 )
-                           )
-                       )
-               .DocValueFields(fdf => fdf.Fields(fd => fd.Dic, fd => fd.Name))//查看实际内容 结果在 result.Fields 中
-               .Size(10)
-       );
+                        .DocValueFields(Doc => Doc.Fields(fd => fd.Dic, fd => fd.Name))//查看实际内容 结果在 result.Fields 中
+                        .Size(10)
+                     );
 
             var iCount = results.Hits.Count;
 
-            return Ok();
+            return Ok(new { Dict= Dict, 
+                            Hits= new 
+                            { 
+                                Result= new {
+                                    Score = results.Hits.Select(x => x.Score),
+                                    Source = results.Hits.Select(x => x.Source)
+                                },
+                                Score = results.Hits.Select(x => x.Score)
+
+                            }
+                    });
 
         }
 

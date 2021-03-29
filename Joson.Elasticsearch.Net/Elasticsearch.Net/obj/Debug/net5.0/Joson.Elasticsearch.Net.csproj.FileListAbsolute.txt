@@ -9,3 +9,4 @@ E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net
 E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\obj\Debug\net5.0\Joson.Elasticsearch.Net.dll
 E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\obj\Debug\net5.0\ref\Joson.Elasticsearch.Net.dll
 E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\obj\Debug\net5.0\Joson.Elasticsearch.Net.pdb
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.Elasticsearch.Net\Elasticsearch.Net\obj\Debug\net5.0\Joson.Elasticsearch.Net.csprojAssemblyReference.cache
