@@ -1,0 +1,188 @@
+2021-12-01 09:57:09,028 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-12-01 09:57:09,273 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-12-01 09:57:09,305 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-12-01 09:57:09,305 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-12-01 09:57:09,311 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2021-12-01 09:57:09,312 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2021-12-01 10:10:07,868 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-12-01 10:10:08,035 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-12-01 10:10:08,059 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-12-01 10:10:08,062 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-12-01 10:10:08,072 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2021-12-01 10:10:08,077 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2021-12-01 10:10:15,547 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - æµ‹è¯•æ—¥å¿—
+2021-12-01 10:10:15,631 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - æµ‹è¯•æ—¥å¿—
+2021-12-01 10:10:18,138 [4] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-12-01 10:10:18,139 [4] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-12-01 10:10:18,147 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: å‡ºé”™å•¦ï¼ï¼ï¼
+2021-12-01 10:10:18,152 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: å‡ºé”™å•¦ï¼ï¼ï¼
+2021-12-01 10:10:18,158 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - è¿™æ˜¯ä¸€ä¸ªç®€å•æ—¥å¿—æµ‹è¯•
+2021-12-01 10:10:18,160 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - è¿™æ˜¯ä¸€ä¸ªç®€å•æ—¥å¿—æµ‹è¯•
+2021-12-01 10:10:18,166 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - é”™è¯¯ä¿¡æ¯ executed at 12/01/2021 02:10:18
+2021-12-01 10:10:18,167 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - é”™è¯¯ä¿¡æ¯ executed at 12/01/2021 02:10:18
+2021-12-01 10:10:18,195 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - è­¦å‘Š; å‘Šè¯«; æé†’æ³¨æ„(å¯èƒ½å‘ç”Ÿçš„äº‹); ä½¿è­¦æƒ•; åŠå‘Š(ä½¿æœ‰æ‰€é˜²å¤‡) executed at 12/01/2021 02:10:18
+2021-12-01 10:10:18,196 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - è­¦å‘Š; å‘Šè¯«; æé†’æ³¨æ„(å¯èƒ½å‘ç”Ÿçš„äº‹); ä½¿è­¦æƒ•; åŠå‘Š(ä½¿æœ‰æ‰€é˜²å¤‡) executed at 12/01/2021 02:10:18
+2021-12-01 10:10:18,223 [4] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - å…³é”®çš„; æ‰¹åˆ¤æ€§çš„; æ‰¹è¯„çš„; æŒ‘å‰”çš„; æé‡è¦çš„; è‡³å…³ç´§è¦çš„; ä¸¥é‡çš„; ä¸ç¨³å®šçš„; å¯èƒ½æœ‰å±é™©çš„; executed at 12/01/2021 02:10:18
+2021-12-01 10:10:18,224 [4] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - å…³é”®çš„; æ‰¹åˆ¤æ€§çš„; æ‰¹è¯„çš„; æŒ‘å‰”çš„; æé‡è¦çš„; è‡³å…³ç´§è¦çš„; ä¸¥é‡çš„; ä¸ç¨³å®šçš„; å¯èƒ½æœ‰å±é™©çš„; executed at 12/01/2021 02:10:18
+2021-12-01 10:24:34,827 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-12-01 10:24:34,970 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-12-01 10:24:34,977 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-12-01 10:24:34,977 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-12-01 10:24:34,983 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2021-12-01 10:24:34,984 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2021-12-01 10:24:35,071 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - æµ‹è¯•æ—¥å¿—
+2021-12-01 10:24:35,089 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - æµ‹è¯•æ—¥å¿—
+2021-12-01 10:24:36,773 [9] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-12-01 10:24:36,778 [9] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-12-01 10:24:36,796 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: å‡ºé”™å•¦ï¼ï¼ï¼
+2021-12-01 10:24:36,800 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: å‡ºé”™å•¦ï¼ï¼ï¼
+2021-12-01 10:24:36,808 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - è¿™æ˜¯ä¸€ä¸ªç®€å•æ—¥å¿—æµ‹è¯•
+2021-12-01 10:24:36,808 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - è¿™æ˜¯ä¸€ä¸ªç®€å•æ—¥å¿—æµ‹è¯•
+2021-12-01 10:24:36,815 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - é”™è¯¯ä¿¡æ¯ executed at 12/01/2021 02:24:36
+2021-12-01 10:24:36,816 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - é”™è¯¯ä¿¡æ¯ executed at 12/01/2021 02:24:36
+2021-12-01 10:24:36,822 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - è­¦å‘Š; å‘Šè¯«; æé†’æ³¨æ„(å¯èƒ½å‘ç”Ÿçš„äº‹); ä½¿è­¦æƒ•; åŠå‘Š(ä½¿æœ‰æ‰€é˜²å¤‡) executed at 12/01/2021 02:24:36
+2021-12-01 10:24:36,823 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - è­¦å‘Š; å‘Šè¯«; æé†’æ³¨æ„(å¯èƒ½å‘ç”Ÿçš„äº‹); ä½¿è­¦æƒ•; åŠå‘Š(ä½¿æœ‰æ‰€é˜²å¤‡) executed at 12/01/2021 02:24:36
+2021-12-01 10:24:36,830 [9] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - å…³é”®çš„; æ‰¹åˆ¤æ€§çš„; æ‰¹è¯„çš„; æŒ‘å‰”çš„; æé‡è¦çš„; è‡³å…³ç´§è¦çš„; ä¸¥é‡çš„; ä¸ç¨³å®šçš„; å¯èƒ½æœ‰å±é™©çš„; executed at 12/01/2021 02:24:36
+2021-12-01 10:24:36,830 [9] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - å…³é”®çš„; æ‰¹åˆ¤æ€§çš„; æ‰¹è¯„çš„; æŒ‘å‰”çš„; æé‡è¦çš„; è‡³å…³ç´§è¦çš„; ä¸¥é‡çš„; ä¸ç¨³å®šçš„; å¯èƒ½æœ‰å±é™©çš„; executed at 12/01/2021 02:24:36
+2021-12-01 10:40:51,460 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-12-01 10:40:51,682 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-12-01 10:40:51,708 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-12-01 10:40:51,711 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-12-01 10:40:51,716 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2021-12-01 10:40:51,717 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2021-12-01 10:40:51,761 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - æµ‹è¯•æ—¥å¿—
+2021-12-01 10:40:51,782 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - æµ‹è¯•æ—¥å¿—
+2021-12-01 10:40:53,389 [9] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-12-01 10:40:53,390 [9] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-12-01 10:40:53,397 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: å‡ºé”™å•¦ï¼ï¼ï¼
+2021-12-01 10:40:53,401 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: å‡ºé”™å•¦ï¼ï¼ï¼
+2021-12-01 10:40:53,406 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - è¿™æ˜¯ä¸€ä¸ªç®€å•æ—¥å¿—æµ‹è¯•
+2021-12-01 10:40:53,407 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - è¿™æ˜¯ä¸€ä¸ªç®€å•æ—¥å¿—æµ‹è¯•
+2021-12-01 10:40:53,414 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - é”™è¯¯ä¿¡æ¯ executed at 12/01/2021 02:40:53
+2021-12-01 10:40:53,415 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - é”™è¯¯ä¿¡æ¯ executed at 12/01/2021 02:40:53
+2021-12-01 10:40:53,420 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - è­¦å‘Š; å‘Šè¯«; æé†’æ³¨æ„(å¯èƒ½å‘ç”Ÿçš„äº‹); ä½¿è­¦æƒ•; åŠå‘Š(ä½¿æœ‰æ‰€é˜²å¤‡) executed at 12/01/2021 02:40:53
+2021-12-01 10:40:53,422 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - è­¦å‘Š; å‘Šè¯«; æé†’æ³¨æ„(å¯èƒ½å‘ç”Ÿçš„äº‹); ä½¿è­¦æƒ•; åŠå‘Š(ä½¿æœ‰æ‰€é˜²å¤‡) executed at 12/01/2021 02:40:53
+2021-12-01 10:40:53,427 [9] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - å…³é”®çš„; æ‰¹åˆ¤æ€§çš„; æ‰¹è¯„çš„; æŒ‘å‰”çš„; æé‡è¦çš„; è‡³å…³ç´§è¦çš„; ä¸¥é‡çš„; ä¸ç¨³å®šçš„; å¯èƒ½æœ‰å±é™©çš„; executed at 12/01/2021 02:40:53
+2021-12-01 10:40:53,429 [9] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - å…³é”®çš„; æ‰¹åˆ¤æ€§çš„; æ‰¹è¯„çš„; æŒ‘å‰”çš„; æé‡è¦çš„; è‡³å…³ç´§è¦çš„; ä¸¥é‡çš„; ä¸ç¨³å®šçš„; å¯èƒ½æœ‰å±é™©çš„; executed at 12/01/2021 02:40:53
+2021-12-01 11:15:31,611 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-12-01 11:15:31,838 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-12-01 11:15:31,845 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-12-01 11:15:31,846 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-12-01 11:15:31,852 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2021-12-01 11:15:31,852 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+2021-12-01 11:15:31,853 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2021-12-01 11:15:31,868 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+2021-12-01 11:15:33,002 [9] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-12-01 11:15:33,003 [9] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-12-01 11:15:33,029 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+2021-12-01 11:15:33,035 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+2021-12-01 11:15:33,045 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+2021-12-01 11:15:33,046 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+2021-12-01 11:15:33,059 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:15:33
+2021-12-01 11:15:33,060 [9] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:15:33
+2021-12-01 11:15:33,066 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:15:33
+2021-12-01 11:15:33,067 [9] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:15:33
+2021-12-01 11:15:33,075 [9] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:15:33
+2021-12-01 11:15:33,076 [9] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:15:33
+2021-12-01 11:16:17,496 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+2021-12-01 11:16:17,498 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+2021-12-01 11:16:19,051 [4] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-12-01 11:16:19,052 [4] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-12-01 11:16:19,065 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+2021-12-01 11:16:19,066 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+2021-12-01 11:16:19,075 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+2021-12-01 11:16:19,076 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+2021-12-01 11:16:19,086 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:16:19
+2021-12-01 11:16:19,087 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:16:19
+2021-12-01 11:16:19,092 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:16:19
+2021-12-01 11:16:19,094 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:16:19
+2021-12-01 11:16:19,102 [4] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:16:19
+2021-12-01 11:16:19,103 [4] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:16:19
+2021-12-01 11:16:53,556 [18] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+2021-12-01 11:16:53,557 [18] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+2021-12-01 11:16:55,260 [18] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-12-01 11:16:55,285 [18] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-12-01 11:16:55,555 [18] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+2021-12-01 11:16:55,557 [18] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+2021-12-01 11:16:55,695 [18] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+2021-12-01 11:16:55,696 [18] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+2021-12-01 11:16:56,043 [18] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:16:56
+2021-12-01 11:16:56,045 [18] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:16:56
+2021-12-01 11:16:57,276 [18] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:16:57
+2021-12-01 11:16:57,277 [18] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:16:57
+2021-12-01 11:16:57,285 [18] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:16:57
+2021-12-01 11:16:57,287 [18] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:16:57
+2021-12-01 11:33:13,935 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-12-01 11:33:14,143 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-12-01 11:33:14,153 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-12-01 11:33:14,156 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-12-01 11:33:14,166 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2021-12-01 11:33:14,168 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2021-12-01 11:33:14,231 [10] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+2021-12-01 11:33:14,257 [10] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+2021-12-01 11:33:15,121 [10] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-12-01 11:33:15,123 [10] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-12-01 11:33:15,151 [10] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+2021-12-01 11:33:15,157 [10] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+2021-12-01 11:33:15,163 [10] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+2021-12-01 11:33:15,163 [10] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+2021-12-01 11:33:15,170 [10] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:33:15
+2021-12-01 11:33:15,171 [10] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:33:15
+2021-12-01 11:33:15,176 [10] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:33:15
+2021-12-01 11:33:15,177 [10] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:33:15
+2021-12-01 11:33:15,182 [10] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:33:15
+2021-12-01 11:33:15,184 [10] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:33:15
+2021-12-01 11:36:03,952 [5] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+2021-12-01 11:36:03,953 [5] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+2021-12-01 11:36:05,261 [5] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-12-01 11:36:05,262 [5] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-12-01 11:36:05,285 [5] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+2021-12-01 11:36:05,286 [5] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+2021-12-01 11:36:05,301 [5] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+2021-12-01 11:36:05,306 [5] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+2021-12-01 11:36:05,321 [5] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:36:05
+2021-12-01 11:36:05,322 [5] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:36:05
+2021-12-01 11:36:05,331 [5] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:36:05
+2021-12-01 11:36:05,332 [5] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:36:05
+2021-12-01 11:36:05,338 [5] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:36:05
+2021-12-01 11:36:05,339 [5] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:36:05
+2021-12-01 19:22:09,607 [1] FATAL Microsoft.AspNetCore.Hosting.Diagnostics - Application startup exception
+System.InvalidCastException: Unable to cast object of type 'log4stash.ElasticSearchAppender' to type 'log4net.ElasticSearch.ElasticSearchAppender'.
+   at Elastic.Kibana.Log4Net.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) in E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net\Startup.cs:line 78
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-12-01 19:22:09,779 [1] FATAL Microsoft.AspNetCore.Hosting.Diagnostics - Application startup exception
+System.InvalidCastException: Unable to cast object of type 'log4stash.ElasticSearchAppender' to type 'log4net.ElasticSearch.ElasticSearchAppender'.
+   at Elastic.Kibana.Log4Net.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) in E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net\Startup.cs:line 78
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)

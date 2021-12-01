@@ -282,3 +282,186 @@
 2020-12-17 21:04:57.1355 Info FileTarget(Name=ErrorFile): Archiving E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.log to E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.3.log
 2020-12-17 21:04:58.4966 Info FileTarget(Name=ErrorFile): Archiving E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.log to E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.4.log
 2020-12-17 21:04:58.6336 Info FileTarget(Name=ErrorFile): Archiving E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.log to E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\logs\Error\2020-12-17.5.log
+2021-12-01 15:57:02.1742 Info Message Template Auto Format enabled
+2021-12-01 15:57:02.1962 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-01 15:57:02.2582 Info Adding target FileTarget(Name=AllFile)
+2021-12-01 15:57:02.2662 Info Adding target FileTarget(Name=TraceFile)
+2021-12-01 15:57:02.2662 Info Adding target FileTarget(Name=DebugFile)
+2021-12-01 15:57:02.2832 Info Adding target FileTarget(Name=JosonFile)
+2021-12-01 15:57:02.2972 Info Adding target FileTarget(Name=ErrorFile)
+2021-12-01 15:57:02.3242 Info Adding target ColoredConsoleTarget(Name=console)
+2021-12-01 15:57:02.3312 Info Adding target DebuggerTarget(Name=debugger)
+2021-12-01 15:57:02.3492 Info Adding target AsyncTargetWrapper(Name=Database)
+2021-12-01 15:57:02.3572 Info Adding target MailTarget(Name=InfoMail)
+2021-12-01 15:57:02.3572 Info Adding target BufferingTargetWrapper(Name=elastic)
+2021-12-01 15:57:02.3862 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'FatalFile' not found for logging rule: *.
+2021-12-01 15:57:02.4512 Info Validating config: Targets=6, ConfigItems=187, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2021-12-01 15:57:02.4512 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2021-12-01 15:57:02.4722 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: debugger
+2021-12-01 15:57:02.4722 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: Database
+2021-12-01 15:57:02.4862 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: InfoMail
+2021-12-01 15:57:02.6472 Error DatabaseTarget(Name=): Failed to create ConnectionType from DBProvider=mssql Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'System.Data.SqlClient, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at NLog.Targets.DatabaseTarget.SetConnectionType()
+   at NLog.Targets.DatabaseTarget.InitializeTarget()
+2021-12-01 15:57:02.7432 Error Database Target[(unnamed)]: Error initializing target Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'System.Data.SqlClient, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at NLog.Targets.DatabaseTarget.SetConnectionType()
+   at NLog.Targets.DatabaseTarget.InitializeTarget()
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2021-12-01 15:57:02.8932 Info Configuration initialized.
+2021-12-01 15:57:02.9022 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2021-12-01 15:57:06.4802 Info Configuring from an XML element in E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\nlog.JosonDevelopment.config...
+2021-12-01 16:00:58.6512 Info Message Template Auto Format enabled
+2021-12-01 16:00:58.6692 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-01 16:00:58.7342 Info Adding target FileTarget(Name=AllFile)
+2021-12-01 16:00:58.7342 Info Adding target FileTarget(Name=TraceFile)
+2021-12-01 16:00:58.7492 Info Adding target FileTarget(Name=DebugFile)
+2021-12-01 16:00:58.7492 Info Adding target FileTarget(Name=JosonFile)
+2021-12-01 16:00:58.7722 Info Adding target FileTarget(Name=ErrorFile)
+2021-12-01 16:00:58.7892 Info Adding target ColoredConsoleTarget(Name=console)
+2021-12-01 16:00:58.7982 Info Adding target DebuggerTarget(Name=debugger)
+2021-12-01 16:00:58.8152 Info Adding target AsyncTargetWrapper(Name=Database)
+2021-12-01 16:00:58.8152 Info Adding target MailTarget(Name=InfoMail)
+2021-12-01 16:00:58.8332 Info Adding target BufferingTargetWrapper(Name=elastic)
+2021-12-01 16:00:58.8462 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'FatalFile' not found for logging rule: *.
+2021-12-01 16:00:58.9082 Info Validating config: Targets=6, ConfigItems=187, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2021-12-01 16:00:58.9262 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2021-12-01 16:00:58.9262 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: debugger
+2021-12-01 16:00:58.9402 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: Database
+2021-12-01 16:00:58.9402 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: InfoMail
+2021-12-01 16:00:59.2792 Info Configuration initialized.
+2021-12-01 16:00:59.2792 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2021-12-01 16:01:01.7832 Info Configuring from an XML element in E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\nlog.JosonDevelopment.config...
+2021-12-01 16:04:04.0552 Info Message Template Auto Format enabled
+2021-12-01 16:04:04.0762 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-01 16:04:04.1362 Info Adding target FileTarget(Name=AllFile)
+2021-12-01 16:04:04.1452 Info Adding target FileTarget(Name=TraceFile)
+2021-12-01 16:04:04.1452 Info Adding target FileTarget(Name=DebugFile)
+2021-12-01 16:04:04.1642 Info Adding target FileTarget(Name=JosonFile)
+2021-12-01 16:04:04.1792 Info Adding target FileTarget(Name=ErrorFile)
+2021-12-01 16:04:04.1932 Info Adding target ColoredConsoleTarget(Name=console)
+2021-12-01 16:04:04.1932 Info Adding target DebuggerTarget(Name=debugger)
+2021-12-01 16:04:04.2192 Info Adding target AsyncTargetWrapper(Name=Database)
+2021-12-01 16:04:04.2262 Info Adding target MailTarget(Name=InfoMail)
+2021-12-01 16:04:04.2382 Info Adding target BufferingTargetWrapper(Name=elastic)
+2021-12-01 16:04:04.2382 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'FatalFile' not found for logging rule: *.
+2021-12-01 16:04:04.3502 Info Validating config: Targets=6, ConfigItems=187, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2021-12-01 16:04:04.3642 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2021-12-01 16:04:04.3642 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: debugger
+2021-12-01 16:04:04.3782 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: Database
+2021-12-01 16:04:04.3782 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: InfoMail
+2021-12-01 16:04:04.6692 Info Configuration initialized.
+2021-12-01 16:04:04.6792 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2021-12-01 16:04:08.6682 Info Configuring from an XML element in E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\nlog.JosonDevelopment.config...
+2021-12-01 16:11:06.1032 Info Message Template Auto Format enabled
+2021-12-01 16:11:06.1252 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-01 16:11:06.1942 Info Adding target FileTarget(Name=AllFile)
+2021-12-01 16:11:06.2012 Info Adding target FileTarget(Name=TraceFile)
+2021-12-01 16:11:06.2012 Info Adding target FileTarget(Name=DebugFile)
+2021-12-01 16:11:06.2192 Info Adding target FileTarget(Name=JosonFile)
+2021-12-01 16:11:06.2332 Info Adding target FileTarget(Name=ErrorFile)
+2021-12-01 16:11:06.2472 Info Adding target ColoredConsoleTarget(Name=console)
+2021-12-01 16:11:06.2472 Info Adding target DebuggerTarget(Name=debugger)
+2021-12-01 16:11:06.2812 Info Adding target AsyncTargetWrapper(Name=Database)
+2021-12-01 16:11:06.2892 Info Adding target MailTarget(Name=InfoMail)
+2021-12-01 16:11:06.2892 Info Adding target BufferingTargetWrapper(Name=elastic)
+2021-12-01 16:11:06.3172 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'FatalFile' not found for logging rule: *.
+2021-12-01 16:11:06.4142 Info Validating config: Targets=6, ConfigItems=187, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2021-12-01 16:11:06.4362 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2021-12-01 16:11:06.4362 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: debugger
+2021-12-01 16:11:06.4492 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: Database
+2021-12-01 16:11:06.4492 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: InfoMail
+2021-12-01 16:11:06.7452 Info Configuration initialized.
+2021-12-01 16:11:06.7452 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2021-12-01 16:11:09.6952 Info Configuring from an XML element in E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\nlog.JosonDevelopment.config...
+2021-12-01 16:14:30.2564 Info Message Template Auto Format enabled
+2021-12-01 16:14:30.2784 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-01 16:14:30.3464 Info Adding target FileTarget(Name=AllFile)
+2021-12-01 16:14:30.3464 Info Adding target FileTarget(Name=TraceFile)
+2021-12-01 16:14:30.3624 Info Adding target FileTarget(Name=DebugFile)
+2021-12-01 16:14:30.3624 Info Adding target FileTarget(Name=JosonFile)
+2021-12-01 16:14:30.3884 Info Adding target FileTarget(Name=ErrorFile)
+2021-12-01 16:14:30.4045 Info Adding target ColoredConsoleTarget(Name=console)
+2021-12-01 16:14:30.4135 Info Adding target DebuggerTarget(Name=debugger)
+2021-12-01 16:14:30.4345 Info Adding target AsyncTargetWrapper(Name=Database)
+2021-12-01 16:14:30.4465 Info Adding target MailTarget(Name=InfoMail)
+2021-12-01 16:14:30.4625 Info Adding target BufferingTargetWrapper(Name=elastic)
+2021-12-01 16:14:30.4795 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'FatalFile' not found for logging rule: *.
+2021-12-01 16:14:30.5625 Info Validating config: Targets=6, ConfigItems=187, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2021-12-01 16:14:30.5815 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2021-12-01 16:14:30.5815 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: debugger
+2021-12-01 16:14:30.5955 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: Database
+2021-12-01 16:14:30.5955 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: InfoMail
+2021-12-01 16:14:31.0005 Info Configuration initialized.
+2021-12-01 16:14:31.0075 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2021-12-01 16:14:32.8077 Info Configuring from an XML element in E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\nlog.JosonDevelopment.config...
+2021-12-01 16:18:23.0947 Info Message Template Auto Format enabled
+2021-12-01 16:18:23.1267 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-01 16:18:23.1847 Info Adding target FileTarget(Name=AllFile)
+2021-12-01 16:18:23.1947 Info Adding target FileTarget(Name=TraceFile)
+2021-12-01 16:18:23.2047 Info Adding target FileTarget(Name=DebugFile)
+2021-12-01 16:18:23.2187 Info Adding target FileTarget(Name=JosonFile)
+2021-12-01 16:18:23.2407 Info Adding target FileTarget(Name=ErrorFile)
+2021-12-01 16:18:23.2587 Info Adding target ColoredConsoleTarget(Name=console)
+2021-12-01 16:18:23.2667 Info Adding target DebuggerTarget(Name=debugger)
+2021-12-01 16:18:23.2887 Info Adding target AsyncTargetWrapper(Name=Database)
+2021-12-01 16:18:23.2987 Info Adding target MailTarget(Name=InfoMail)
+2021-12-01 16:18:23.3127 Info Adding target BufferingTargetWrapper(Name=elastic)
+2021-12-01 16:18:23.3287 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'FatalFile' not found for logging rule: *.
+2021-12-01 16:18:23.4027 Info Validating config: Targets=6, ConfigItems=187, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2021-12-01 16:18:23.4188 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2021-12-01 16:18:23.4268 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: debugger
+2021-12-01 16:18:23.4268 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: Database
+2021-12-01 16:18:23.4398 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: InfoMail
+2021-12-01 16:18:23.7028 Info Configuration initialized.
+2021-12-01 16:18:23.7028 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2021-12-01 16:18:25.9330 Info Configuring from an XML element in E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\nlog.JosonDevelopment.config...
+2021-12-01 16:20:08.9753 Info Message Template Auto Format enabled
+2021-12-01 16:20:08.9953 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-01 16:20:09.0553 Info Adding target FileTarget(Name=AllFile)
+2021-12-01 16:20:09.0553 Info Adding target FileTarget(Name=TraceFile)
+2021-12-01 16:20:09.0723 Info Adding target FileTarget(Name=DebugFile)
+2021-12-01 16:20:09.0723 Info Adding target FileTarget(Name=JosonFile)
+2021-12-01 16:20:09.0963 Info Adding target FileTarget(Name=ErrorFile)
+2021-12-01 16:20:09.1093 Info Adding target ColoredConsoleTarget(Name=console)
+2021-12-01 16:20:09.1163 Info Adding target DebuggerTarget(Name=debugger)
+2021-12-01 16:20:09.1363 Info Adding target AsyncTargetWrapper(Name=Database)
+2021-12-01 16:20:09.1363 Info Adding target MailTarget(Name=InfoMail)
+2021-12-01 16:20:09.1563 Info Adding target BufferingTargetWrapper(Name=elastic)
+2021-12-01 16:20:09.1703 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'FatalFile' not found for logging rule: *.
+2021-12-01 16:20:09.2473 Info Validating config: Targets=6, ConfigItems=187, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2021-12-01 16:20:09.2653 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2021-12-01 16:20:09.2653 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: debugger
+2021-12-01 16:20:09.2773 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: Database
+2021-12-01 16:20:09.2773 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: InfoMail
+2021-12-01 16:20:09.5154 Info Configuration initialized.
+2021-12-01 16:20:09.5154 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2021-12-01 16:20:11.3775 Info Configuring from an XML element in E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\nlog.JosonDevelopment.config...
+2021-12-01 16:25:13.6458 Info Message Template Auto Format enabled
+2021-12-01 16:25:13.6718 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-01 16:25:13.7338 Info Adding target FileTarget(Name=AllFile)
+2021-12-01 16:25:13.7428 Info Adding target FileTarget(Name=TraceFile)
+2021-12-01 16:25:13.7428 Info Adding target FileTarget(Name=DebugFile)
+2021-12-01 16:25:13.7618 Info Adding target FileTarget(Name=JosonFile)
+2021-12-01 16:25:13.7788 Info Adding target FileTarget(Name=ErrorFile)
+2021-12-01 16:25:13.7958 Info Adding target ColoredConsoleTarget(Name=console)
+2021-12-01 16:25:13.8038 Info Adding target DebuggerTarget(Name=debugger)
+2021-12-01 16:25:13.8238 Info Adding target AsyncTargetWrapper(Name=Database)
+2021-12-01 16:25:13.8308 Info Adding target MailTarget(Name=InfoMail)
+2021-12-01 16:25:13.8308 Info Adding target BufferingTargetWrapper(Name=elastic)
+2021-12-01 16:25:13.8588 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'FatalFile' not found for logging rule: *.
+2021-12-01 16:25:13.9358 Info Validating config: Targets=6, ConfigItems=187, FilePath=E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\NLog.config
+2021-12-01 16:25:13.9508 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2021-12-01 16:25:13.9588 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: debugger
+2021-12-01 16:25:13.9588 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: Database
+2021-12-01 16:25:13.9758 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: InfoMail
+2021-12-01 16:25:14.3078 Info Configuration initialized.
+2021-12-01 16:25:14.3158 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.6.12219. Product version: 4.7.6+e16065c1f397a4b0a5beed10d2e79bbedc1fd1e6. GlobalAssemblyCache: False
+2021-12-01 16:25:15.6790 Info Configuring from an XML element in E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.NLog\Elastic.Kibana.NLog\bin\Debug\net5.0\nlog.JosonDevelopment.config...

@@ -1,0 +1,133 @@
+INFO  2021-12-01 20:01:05,711 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+WARN  2021-12-01 20:01:18,212 [8    ] na.Log4Net.Controllers.Log4NetController - 测试日志
+INFO  2021-12-01 20:01:18,284 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-12-01 20:01:19,591 [8    ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+INFO  2021-12-01 20:01:19,641 [1    ] Microsoft.Hosting.Lifetime               - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+ERROR 2021-12-01 20:01:19,880 [8    ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+ERROR 2021-12-01 20:01:20,147 [8    ] na.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+ERROR 2021-12-01 20:01:20,314 [8    ] na.Log4Net.Controllers.Log4NetController - 错误信息 executed at 12/01/2021 12:01:20
+WARN  2021-12-01 20:01:20,455 [8    ] na.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 12:01:20
+FATAL 2021-12-01 20:01:20,609 [8    ] na.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 12:01:20
+INFO  2021-12-01 20:04:37,124 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+WARN  2021-12-01 20:04:56,832 [10   ] na.Log4Net.Controllers.Log4NetController - 测试日志
+INFO  2021-12-01 20:04:56,953 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-12-01 20:05:02,197 [10   ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+INFO  2021-12-01 20:05:02,271 [1    ] Microsoft.Hosting.Lifetime               - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+ERROR 2021-12-01 20:05:02,419 [10   ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+ERROR 2021-12-01 20:05:02,741 [10   ] na.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+ERROR 2021-12-01 20:05:02,905 [10   ] na.Log4Net.Controllers.Log4NetController - 错误信息 executed at 12/01/2021 12:05:02
+WARN  2021-12-01 20:05:03,235 [10   ] na.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 12:05:03
+FATAL 2021-12-01 20:05:03,359 [10   ] na.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 12:05:03
+ERROR 2021-12-01 20:06:14,088 [33   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+log4net.Core.LogException: Repository [MeIsTestRepository] is already defined. Repositories cannot be redefined.
+   at log4net.Core.DefaultRepositorySelector.CreateRepository(String repositoryName, Type repositoryType)
+   at log4net.Core.LoggerManager.CreateRepository(String repository)
+   at log4net.LogManager.CreateRepository(String repository)
+   at Elastic.Kibana.Log4Net.Controllers.Log4NetController.Get() in E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net\Controllers\Log4NetController.cs:line 54
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 2021-12-01 20:06:20,976 [33   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+log4net.Core.LogException: Repository [MeIsTestRepository] is already defined. Repositories cannot be redefined.
+   at log4net.Core.DefaultRepositorySelector.CreateRepository(String repositoryName, Type repositoryType)
+   at log4net.Core.LoggerManager.CreateRepository(String repository)
+   at log4net.LogManager.CreateRepository(String repository)
+   at Elastic.Kibana.Log4Net.Controllers.Log4NetController.Get() in E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net\Controllers\Log4NetController.cs:line 54
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 2021-12-01 20:06:37,683 [33   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+log4net.Core.LogException: Repository [MeIsTestRepository] is already defined. Repositories cannot be redefined.
+   at log4net.Core.DefaultRepositorySelector.CreateRepository(String repositoryName, Type repositoryType)
+   at log4net.Core.LoggerManager.CreateRepository(String repository)
+   at log4net.LogManager.CreateRepository(String repository)
+   at Elastic.Kibana.Log4Net.Controllers.Log4NetController.Get() in E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net\Controllers\Log4NetController.cs:line 54
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2021-12-01 20:06:44,439 [33   ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+ERROR 2021-12-01 20:06:44,696 [33   ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+ERROR 2021-12-01 20:06:45,331 [33   ] na.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+ERROR 2021-12-01 20:06:45,913 [33   ] na.Log4Net.Controllers.Log4NetController - 错误信息 executed at 12/01/2021 12:06:45
+WARN  2021-12-01 20:06:46,361 [33   ] na.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 12:06:46
+FATAL 2021-12-01 20:06:46,709 [33   ] na.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 12:06:46
+WARN  2021-12-01 20:07:36,569 [43   ] na.Log4Net.Controllers.Log4NetController - 测试日志
+INFO  2021-12-01 20:07:37,352 [43   ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+ERROR 2021-12-01 20:07:37,702 [43   ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+ERROR 2021-12-01 20:07:38,057 [43   ] na.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+ERROR 2021-12-01 20:07:38,478 [43   ] na.Log4Net.Controllers.Log4NetController - 错误信息 executed at 12/01/2021 12:07:38
+WARN  2021-12-01 20:07:38,825 [43   ] na.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 12:07:38
+FATAL 2021-12-01 20:07:39,323 [43   ] na.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 12:07:39
+ERROR 2021-12-01 20:08:24,082 [58   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+log4net.Core.LogException: Repository [MeIRepository] is already defined. Repositories cannot be redefined.
+   at log4net.Core.DefaultRepositorySelector.CreateRepository(String repositoryName, Type repositoryType)
+   at log4net.Core.LoggerManager.CreateRepository(String repository)
+   at log4net.LogManager.CreateRepository(String repository)
+   at Elastic.Kibana.Log4Net.Controllers.Log4NetController.Get()
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+WARN  2021-12-01 20:09:44,239 [65   ] na.Log4Net.Controllers.Log4NetController - 测试日志
+INFO  2021-12-01 20:09:45,361 [65   ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+ERROR 2021-12-01 20:09:45,864 [65   ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+ERROR 2021-12-01 20:09:46,127 [65   ] na.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+ERROR 2021-12-01 20:09:46,559 [65   ] na.Log4Net.Controllers.Log4NetController - 错误信息 executed at 12/01/2021 12:09:46
+WARN  2021-12-01 20:09:47,011 [65   ] na.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 12:09:47
+FATAL 2021-12-01 20:09:47,418 [65   ] na.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 12:09:47

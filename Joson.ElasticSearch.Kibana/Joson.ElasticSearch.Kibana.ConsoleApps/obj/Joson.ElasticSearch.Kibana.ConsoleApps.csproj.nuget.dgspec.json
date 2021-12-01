@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Joson\\Net.Core\\ElasticSearch.Kibana\\Joson.ElasticSearch.Kibana\\Joson.ElasticSearch.Kibana.ConsoleApps\\Joson.ElasticSearch.Kibana.ConsoleApps.csproj": {}
+  },
+  "projects": {
+    "E:\\Joson\\Net.Core\\ElasticSearch.Kibana\\Joson.ElasticSearch.Kibana\\Joson.ElasticSearch.Kibana.ConsoleApps\\Joson.ElasticSearch.Kibana.ConsoleApps.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Joson\\Net.Core\\ElasticSearch.Kibana\\Joson.ElasticSearch.Kibana\\Joson.ElasticSearch.Kibana.ConsoleApps\\Joson.ElasticSearch.Kibana.ConsoleApps.csproj",
+        "projectName": "Joson.ElasticSearch.Kibana.ConsoleApps",
+        "projectPath": "E:\\Joson\\Net.Core\\ElasticSearch.Kibana\\Joson.ElasticSearch.Kibana\\Joson.ElasticSearch.Kibana.ConsoleApps\\Joson.ElasticSearch.Kibana.ConsoleApps.csproj",
+        "packagesPath": "C:\\Users\\Joson\\.nuget\\packages\\",
+        "outputPath": "E:\\Joson\\Net.Core\\ElasticSearch.Kibana\\Joson.ElasticSearch.Kibana\\Joson.ElasticSearch.Kibana.ConsoleApps\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Joson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net452"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://40.74.121.92:8081/repository/nuget-hosted/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net452": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net452": {
+          "dependencies": {
+            "log4net.ElasticSearch": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

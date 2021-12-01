@@ -1,0 +1,136 @@
+INFO  2021-12-01 11:01:16,426 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2021-12-01 11:01:16,614 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2021-12-01 11:01:16,650 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-12-01 11:01:16,660 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-12-01 11:01:16,682 [1    ] Microsoft.Hosting.Lifetime               - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+INFO  2021-12-01 11:01:16,704 [1    ] Microsoft.Hosting.Lifetime               - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+WARN  2021-12-01 11:01:16,708 [4    ] na.Log4Net.Controllers.Log4NetController - æµ‹è¯•æ—¥å¿—
+WARN  2021-12-01 11:01:16,729 [4    ] na.Log4Net.Controllers.Log4NetController - æµ‹è¯•æ—¥å¿—
+INFO  2021-12-01 11:01:18,201 [4    ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+INFO  2021-12-01 11:01:18,214 [4    ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+ERROR 2021-12-01 11:01:18,233 [4    ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: å‡ºé”™å•¦ï¼ï¼ï¼
+ERROR 2021-12-01 11:01:18,252 [4    ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: å‡ºé”™å•¦ï¼ï¼ï¼
+ERROR 2021-12-01 11:01:18,273 [4    ] na.Log4Net.Controllers.Log4NetController - è¿™æ˜¯ä¸€ä¸ªç®€å•æ—¥å¿—æµ‹è¯•
+ERROR 2021-12-01 11:01:18,280 [4    ] na.Log4Net.Controllers.Log4NetController - è¿™æ˜¯ä¸€ä¸ªç®€å•æ—¥å¿—æµ‹è¯•
+ERROR 2021-12-01 11:01:18,297 [4    ] na.Log4Net.Controllers.Log4NetController - é”™è¯¯ä¿¡æ¯ executed at 12/01/2021 03:01:18
+ERROR 2021-12-01 11:01:18,305 [4    ] na.Log4Net.Controllers.Log4NetController - é”™è¯¯ä¿¡æ¯ executed at 12/01/2021 03:01:18
+WARN  2021-12-01 11:01:18,319 [4    ] na.Log4Net.Controllers.Log4NetController - è­¦å‘Š; å‘Šè¯«; æé†’æ³¨æ„(å¯èƒ½å‘ç”Ÿçš„äº‹); ä½¿è­¦æƒ•; åŠå‘Š(ä½¿æœ‰æ‰€é˜²å¤‡) executed at 12/01/2021 03:01:18
+WARN  2021-12-01 11:01:18,325 [4    ] na.Log4Net.Controllers.Log4NetController - è­¦å‘Š; å‘Šè¯«; æé†’æ³¨æ„(å¯èƒ½å‘ç”Ÿçš„äº‹); ä½¿è­¦æƒ•; åŠå‘Š(ä½¿æœ‰æ‰€é˜²å¤‡) executed at 12/01/2021 03:01:18
+FATAL 2021-12-01 11:01:18,338 [4    ] na.Log4Net.Controllers.Log4NetController - å…³é”®çš„; æ‰¹åˆ¤æ€§çš„; æ‰¹è¯„çš„; æŒ‘å‰”çš„; æé‡è¦çš„; è‡³å…³ç´§è¦çš„; ä¸¥é‡çš„; ä¸ç¨³å®šçš„; å¯èƒ½æœ‰å±é™©çš„; executed at 12/01/2021 03:01:18
+FATAL 2021-12-01 11:01:18,345 [4    ] na.Log4Net.Controllers.Log4NetController - å…³é”®çš„; æ‰¹åˆ¤æ€§çš„; æ‰¹è¯„çš„; æŒ‘å‰”çš„; æé‡è¦çš„; è‡³å…³ç´§è¦çš„; ä¸¥é‡çš„; ä¸ç¨³å®šçš„; å¯èƒ½æœ‰å±é™©çš„; executed at 12/01/2021 03:01:18
+WARN  2021-12-01 11:02:25,579 [12   ] na.Log4Net.Controllers.Log4NetController - æµ‹è¯•æ—¥å¿—
+WARN  2021-12-01 11:02:25,607 [12   ] na.Log4Net.Controllers.Log4NetController - æµ‹è¯•æ—¥å¿—
+INFO  2021-12-01 11:02:28,759 [12   ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+INFO  2021-12-01 11:02:28,768 [12   ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+ERROR 2021-12-01 11:02:29,140 [12   ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: å‡ºé”™å•¦ï¼ï¼ï¼
+ERROR 2021-12-01 11:02:29,152 [12   ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: å‡ºé”™å•¦ï¼ï¼ï¼
+ERROR 2021-12-01 11:02:29,353 [12   ] na.Log4Net.Controllers.Log4NetController - è¿™æ˜¯ä¸€ä¸ªç®€å•æ—¥å¿—æµ‹è¯•
+ERROR 2021-12-01 11:02:29,365 [12   ] na.Log4Net.Controllers.Log4NetController - è¿™æ˜¯ä¸€ä¸ªç®€å•æ—¥å¿—æµ‹è¯•
+ERROR 2021-12-01 11:02:29,747 [12   ] na.Log4Net.Controllers.Log4NetController - é”™è¯¯ä¿¡æ¯ executed at 12/01/2021 03:02:29
+ERROR 2021-12-01 11:02:29,757 [12   ] na.Log4Net.Controllers.Log4NetController - é”™è¯¯ä¿¡æ¯ executed at 12/01/2021 03:02:29
+WARN  2021-12-01 11:02:31,104 [12   ] na.Log4Net.Controllers.Log4NetController - è­¦å‘Š; å‘Šè¯«; æé†’æ³¨æ„(å¯èƒ½å‘ç”Ÿçš„äº‹); ä½¿è­¦æƒ•; åŠå‘Š(ä½¿æœ‰æ‰€é˜²å¤‡) executed at 12/01/2021 03:02:31
+WARN  2021-12-01 11:02:31,116 [12   ] na.Log4Net.Controllers.Log4NetController - è­¦å‘Š; å‘Šè¯«; æé†’æ³¨æ„(å¯èƒ½å‘ç”Ÿçš„äº‹); ä½¿è­¦æƒ•; åŠå‘Š(ä½¿æœ‰æ‰€é˜²å¤‡) executed at 12/01/2021 03:02:31
+FATAL 2021-12-01 11:02:31,314 [12   ] na.Log4Net.Controllers.Log4NetController - å…³é”®çš„; æ‰¹åˆ¤æ€§çš„; æ‰¹è¯„çš„; æŒ‘å‰”çš„; æé‡è¦çš„; è‡³å…³ç´§è¦çš„; ä¸¥é‡çš„; ä¸ç¨³å®šçš„; å¯èƒ½æœ‰å±é™©çš„; executed at 12/01/2021 03:02:31
+FATAL 2021-12-01 11:02:31,324 [12   ] na.Log4Net.Controllers.Log4NetController - å…³é”®çš„; æ‰¹åˆ¤æ€§çš„; æ‰¹è¯„çš„; æŒ‘å‰”çš„; æé‡è¦çš„; è‡³å…³ç´§è¦çš„; ä¸¥é‡çš„; ä¸ç¨³å®šçš„; å¯èƒ½æœ‰å±é™©çš„; executed at 12/01/2021 03:02:31
+INFO  2021-12-01 11:11:17,474 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+WARN  2021-12-01 11:11:17,729 [7    ] na.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+INFO  2021-12-01 11:11:17,807 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+WARN  2021-12-01 11:11:17,814 [7    ] na.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+INFO  2021-12-01 11:11:17,846 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-12-01 11:11:19,506 [7    ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+INFO  2021-12-01 11:11:19,545 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-12-01 11:11:19,555 [7    ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+INFO  2021-12-01 11:11:19,579 [1    ] Microsoft.Hosting.Lifetime               - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+ERROR 2021-12-01 11:11:19,597 [7    ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+INFO  2021-12-01 11:11:19,613 [1    ] Microsoft.Hosting.Lifetime               - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+ERROR 2021-12-01 11:11:19,622 [7    ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+ERROR 2021-12-01 11:11:19,651 [7    ] na.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+ERROR 2021-12-01 11:11:19,671 [7    ] na.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+ERROR 2021-12-01 11:11:19,702 [7    ] na.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:11:19
+ERROR 2021-12-01 11:11:19,722 [7    ] na.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:11:19
+WARN  2021-12-01 11:11:19,751 [7    ] na.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:11:19
+WARN  2021-12-01 11:11:19,780 [7    ] na.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:11:19
+FATAL 2021-12-01 11:11:19,810 [7    ] na.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:11:19
+FATAL 2021-12-01 11:11:19,872 [7    ] na.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:11:19
+INFO  2021-12-01 11:25:21,838 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+WARN  2021-12-01 11:25:22,087 [5    ] na.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+INFO  2021-12-01 11:25:22,358 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+WARN  2021-12-01 11:25:22,441 [5    ] na.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+INFO  2021-12-01 11:25:22,649 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-12-01 11:25:24,384 [5    ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+INFO  2021-12-01 11:25:24,490 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-12-01 11:25:24,719 [5    ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+INFO  2021-12-01 11:25:25,050 [1    ] Microsoft.Hosting.Lifetime               - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+ERROR 2021-12-01 11:25:25,288 [5    ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+INFO  2021-12-01 11:25:25,469 [1    ] Microsoft.Hosting.Lifetime               - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+ERROR 2021-12-01 11:25:25,614 [5    ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+ERROR 2021-12-01 11:25:25,933 [5    ] na.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+ERROR 2021-12-01 11:25:26,102 [5    ] na.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+ERROR 2021-12-01 11:25:26,241 [5    ] na.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:25:26
+ERROR 2021-12-01 11:25:26,385 [5    ] na.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:25:26
+WARN  2021-12-01 11:25:26,557 [5    ] na.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:25:26
+WARN  2021-12-01 11:25:26,689 [5    ] na.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:25:26
+FATAL 2021-12-01 11:25:26,993 [5    ] na.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:25:26
+FATAL 2021-12-01 11:25:27,202 [5    ] na.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:25:26
+INFO  2021-12-01 11:30:47,415 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+WARN  2021-12-01 11:30:47,665 [9    ] na.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+INFO  2021-12-01 11:30:47,924 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+WARN  2021-12-01 11:30:47,998 [9    ] na.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+INFO  2021-12-01 11:30:48,129 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-12-01 11:30:50,023 [9    ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+INFO  2021-12-01 11:30:50,039 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-12-01 11:30:50,221 [9    ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+INFO  2021-12-01 11:30:50,375 [1    ] Microsoft.Hosting.Lifetime               - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+ERROR 2021-12-01 11:30:50,527 [9    ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+INFO  2021-12-01 11:30:50,669 [1    ] Microsoft.Hosting.Lifetime               - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+ERROR 2021-12-01 11:30:50,820 [9    ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+ERROR 2021-12-01 11:30:51,283 [9    ] na.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+ERROR 2021-12-01 11:30:51,435 [9    ] na.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+ERROR 2021-12-01 11:30:51,561 [9    ] na.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:30:51
+ERROR 2021-12-01 11:30:51,697 [9    ] na.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:30:51
+WARN  2021-12-01 11:30:51,850 [9    ] na.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:30:51
+WARN  2021-12-01 11:30:51,972 [9    ] na.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:30:51
+FATAL 2021-12-01 11:30:52,127 [9    ] na.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:30:52
+FATAL 2021-12-01 11:30:52,268 [9    ] na.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:30:52
+WARN  2021-12-01 11:31:09,056 [4    ] na.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+WARN  2021-12-01 11:31:09,210 [4    ] na.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+INFO  2021-12-01 11:31:12,447 [4    ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+INFO  2021-12-01 11:31:12,601 [4    ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+ERROR 2021-12-01 11:31:12,728 [4    ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+ERROR 2021-12-01 11:31:13,072 [4    ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+ERROR 2021-12-01 11:31:13,246 [4    ] na.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+ERROR 2021-12-01 11:31:13,439 [4    ] na.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+ERROR 2021-12-01 11:31:13,607 [4    ] na.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:31:13
+ERROR 2021-12-01 11:31:13,754 [4    ] na.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:31:13
+WARN  2021-12-01 11:31:13,873 [4    ] na.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:31:13
+WARN  2021-12-01 11:31:14,028 [4    ] na.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:31:13
+FATAL 2021-12-01 11:31:14,139 [4    ] na.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:31:14
+FATAL 2021-12-01 11:31:14,274 [4    ] na.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:31:14
+WARN  2021-12-01 11:32:15,287 [11   ] na.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+WARN  2021-12-01 11:32:15,440 [11   ] na.Log4Net.Controllers.Log4NetController - ²âÊÔÈÕÖ¾
+INFO  2021-12-01 11:32:16,894 [11   ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+INFO  2021-12-01 11:32:17,072 [11   ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+ERROR 2021-12-01 11:32:17,252 [11   ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+ERROR 2021-12-01 11:32:17,427 [11   ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ³ö´íÀ²£¡£¡£¡
+ERROR 2021-12-01 11:32:17,634 [11   ] na.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+ERROR 2021-12-01 11:32:17,794 [11   ] na.Log4Net.Controllers.Log4NetController - ÕâÊÇÒ»¸ö¼òµ¥ÈÕÖ¾²âÊÔ
+ERROR 2021-12-01 11:32:17,974 [11   ] na.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:32:17
+ERROR 2021-12-01 11:32:18,155 [11   ] na.Log4Net.Controllers.Log4NetController - ´íÎóĞÅÏ¢ executed at 12/01/2021 03:32:17
+WARN  2021-12-01 11:32:18,294 [11   ] na.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:32:18
+WARN  2021-12-01 11:32:18,460 [11   ] na.Log4Net.Controllers.Log4NetController - ¾¯¸æ; ¸æ½ë; ÌáĞÑ×¢Òâ(¿ÉÄÜ·¢ÉúµÄÊÂ); Ê¹¾¯Ìè; È°¸æ(Ê¹ÓĞËù·À±¸) executed at 12/01/2021 03:32:18
+FATAL 2021-12-01 11:32:18,620 [11   ] na.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:32:18
+FATAL 2021-12-01 11:32:18,769 [11   ] na.Log4Net.Controllers.Log4NetController - ¹Ø¼üµÄ; ÅúÅĞĞÔµÄ; ÅúÆÀµÄ; ÌôÌŞµÄ; ¼«ÖØÒªµÄ; ÖÁ¹Ø½ôÒªµÄ; ÑÏÖØµÄ; ²»ÎÈ¶¨µÄ; ¿ÉÄÜÓĞÎ£ÏÕµÄ; executed at 12/01/2021 03:32:18

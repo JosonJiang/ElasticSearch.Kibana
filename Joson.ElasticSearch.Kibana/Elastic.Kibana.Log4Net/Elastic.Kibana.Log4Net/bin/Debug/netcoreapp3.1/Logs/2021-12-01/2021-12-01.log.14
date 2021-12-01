@@ -1,0 +1,34 @@
+2021-12-01 10:54:16 线程ID:[1] 日志级别:INFO  Microsoft.Hosting.Lifetime  -描述: Application started. Press Ctrl+C to shut down.
+ 2021-12-01 10:54:17 线程ID:[1] 日志级别:INFO  Microsoft.Hosting.Lifetime  -描述: Hosting environment: Development
+ 2021-12-01 10:54:17 线程ID:[1] 日志级别:INFO  Microsoft.Hosting.Lifetime  -描述: Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+ 2021-12-01 10:58:31 线程ID:[12] 日志级别:WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 测试日志
+ 2021-12-01 10:58:33 线程ID:[12] 日志级别:INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: JosonRequest /WeatherForecast
+ 2021-12-01 10:58:33 线程ID:[12] 日志级别:ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: request api/values
+ System.Exception: 出错啦！！！
+2021-12-01 10:58:33 线程ID:[12] 日志级别:ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 这是一个简单日志测试
+ 2021-12-01 10:58:33 线程ID:[12] 日志级别:ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 错误信息 executed at 12/01/2021 02:58:33
+ 2021-12-01 10:58:33 线程ID:[12] 日志级别:WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 02:58:33
+ 2021-12-01 10:58:33 线程ID:[12] 日志级别:FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 02:58:33
+ 2021-12-01 11:01:16 线程ID:[1] 日志级别:INFO  Microsoft.Hosting.Lifetime  -描述: Application started. Press Ctrl+C to shut down.
+ 2021-12-01 11:01:16 线程ID:[1] 日志级别:INFO  Microsoft.Hosting.Lifetime  -描述: Application started. Press Ctrl+C to shut down.
+ 2021-12-01 11:01:16 线程ID:[1] 日志级别:INFO  Microsoft.Hosting.Lifetime  -描述: Hosting environment: Development
+ 2021-12-01 11:01:16 线程ID:[1] 日志级别:INFO  Microsoft.Hosting.Lifetime  -描述: Hosting environment: Development
+ 2021-12-01 11:01:16 线程ID:[1] 日志级别:INFO  Microsoft.Hosting.Lifetime  -描述: Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+ 2021-12-01 11:01:16 线程ID:[1] 日志级别:INFO  Microsoft.Hosting.Lifetime  -描述: Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+ 2021-12-01 11:01:16 线程ID:[4] 日志级别:WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 测试日志
+ 2021-12-01 11:01:16 线程ID:[4] 日志级别:WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 测试日志
+ 2021-12-01 11:01:18 线程ID:[4] 日志级别:INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: JosonRequest /WeatherForecast
+ 2021-12-01 11:01:18 线程ID:[4] 日志级别:INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: JosonRequest /WeatherForecast
+ 2021-12-01 11:01:18 线程ID:[4] 日志级别:ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: request api/values
+ System.Exception: 出错啦！！！
+2021-12-01 11:01:18 线程ID:[4] 日志级别:ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: request api/values
+ System.Exception: 出错啦！！！
+2021-12-01 11:01:18 线程ID:[4] 日志级别:ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 这是一个简单日志测试
+ 2021-12-01 11:01:18 线程ID:[4] 日志级别:ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 这是一个简单日志测试
+ 2021-12-01 11:01:18 线程ID:[4] 日志级别:ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 错误信息 executed at 12/01/2021 03:01:18
+ 2021-12-01 11:01:18 线程ID:[4] 日志级别:ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 错误信息 executed at 12/01/2021 03:01:18
+ 2021-12-01 11:01:18 线程ID:[4] 日志级别:WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 03:01:18
+ 2021-12-01 11:01:18 线程ID:[4] 日志级别:WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 03:01:18
+ 2021-12-01 11:01:18 线程ID:[4] 日志级别:FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 03:01:18
+ 2021-12-01 11:01:18 线程ID:[4] 日志级别:FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 03:01:18
+ 

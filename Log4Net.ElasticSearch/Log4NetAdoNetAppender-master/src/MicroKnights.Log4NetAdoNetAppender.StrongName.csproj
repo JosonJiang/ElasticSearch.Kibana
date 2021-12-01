@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.3;netstandard2.0;netstandard2.1</TargetFrameworks>
+    <RootNamespace>MicroKnights.Logging</RootNamespace>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Frank Løvendahl Nielsen</Authors>
+    <Company>MicroKnight ApS</Company>
+    <Product>Log4NetAdoNetAppender</Product>
+    <Description>AdoNetAppender for .Net Core log4net people</Description>
+    <PackageLicenseUrl>https://logging.apache.org/log4net/license.html</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/microknights/Log4NetAdoNetAppender</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/microknights/Log4NetAdoNetAppender</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageId>MicroKnights.Log4NetAdoNetAppender.StrongName</PackageId>
+    <PackageTags>log4net adonetappender</PackageTags>
+    <PackageReleaseNotes>Multitarget framework, netstandard1.3-2.0 using System.Data.SqlClient and netstandard2.1+ using Microsoft.Data.SqlClient</PackageReleaseNotes>
+
+    <AssemblyOriginatorKeyFile>Log4NetAdoNetAppender.snk</AssemblyOriginatorKeyFile>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.3'">
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="1.1.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.4.2" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.0.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.4.2" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.*" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="3.*" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="1.*" />
+  </ItemGroup>
+
+</Project>

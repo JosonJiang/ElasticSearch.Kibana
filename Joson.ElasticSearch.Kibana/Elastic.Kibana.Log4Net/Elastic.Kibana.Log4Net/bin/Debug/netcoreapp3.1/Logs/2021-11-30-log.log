@@ -1,0 +1,30 @@
+2021-11-30 10:31:19,763 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-11-30 10:31:20,139 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-11-30 10:31:20,146 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-11-30 10:31:20,147 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-11-30 10:31:20,152 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2021-11-30 10:31:20,153 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+2021-11-30 10:31:36,637 [12] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - LogError 5 executed at 11/30/2021 02:31:36
+2021-11-30 10:31:36,653 [12] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - LogError 5 executed at 11/30/2021 02:31:36
+2021-11-30 10:31:36,955 [12] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - LogWarning 5 executed at 11/30/2021 02:31:36
+2021-11-30 10:31:36,956 [12] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - LogWarning 5 executed at 11/30/2021 02:31:36
+2021-11-30 10:31:37,111 [12] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - Get 5 executed at 11/30/2021 02:31:37
+2021-11-30 10:31:37,113 [12] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - Get 5 executed at 11/30/2021 02:31:37
+2021-11-30 10:31:37,287 [12] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - LogCritical 5 executed at 11/30/2021 02:31:37
+2021-11-30 10:31:37,297 [12] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - LogCritical 5 executed at 11/30/2021 02:31:37
+2021-11-30 10:33:12,462 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2021-11-30 10:33:12,464 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 测试日志
+2021-11-30 10:33:13,842 [4] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-11-30 10:33:13,843 [4] INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+2021-11-30 10:33:14,011 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2021-11-30 10:33:14,014 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+2021-11-30 10:33:14,142 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2021-11-30 10:33:14,143 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+2021-11-30 10:33:14,410 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 错误信息 executed at 11/30/2021 02:33:14
+2021-11-30 10:33:14,411 [4] ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController - 错误信息 executed at 11/30/2021 02:33:14
+2021-11-30 10:33:14,705 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 11/30/2021 02:33:14
+2021-11-30 10:33:14,705 [4] WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 11/30/2021 02:33:14
+2021-11-30 10:33:14,885 [4] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 11/30/2021 02:33:14
+2021-11-30 10:33:14,886 [4] FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 11/30/2021 02:33:14

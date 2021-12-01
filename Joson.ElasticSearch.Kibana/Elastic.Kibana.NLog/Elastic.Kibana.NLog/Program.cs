@@ -6,6 +6,7 @@ using NLog.Web;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace Elastic.Kibana.NLog
@@ -22,9 +23,9 @@ namespace Elastic.Kibana.NLog
 
                 .ConfigureLogging((hostingContext, loggingBuilder) =>
                  {
-                     var configFileName = $"nlog.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.config";
 
-                     loggingBuilder.AddJsonConsole(X =>{ X.IncludeScopes = true; }).AddDebug().AddNLog(configFileName);
+                     var configFileName = $"nlog.Joson{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.config";
+                     loggingBuilder.AddJsonConsole(X => { X.IncludeScopes = true; }).AddDebug().AddNLog(configFileName);
                      loggingBuilder.AddConsole(x => x.IncludeScopes = true).AddDebug();
 
                  })

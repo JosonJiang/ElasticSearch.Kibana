@@ -41,6 +41,18 @@ namespace Elastic.Kibana.NLog.Controllers
 
             _logger.LogCritical("LogCritical {ID} executed at {date}", ID, DateTime.UtcNow);
 
+
+            #region 测试日志
+            //https://www.cnblogs.com/muyeh/p/9788311.html
+            _logger.LogTrace("开发阶段调试，可能包含敏感程序数据", 1);
+            _logger.LogDebug("开发阶段短期内比较有用，对调试有益。");
+            _logger.LogInformation("你访问了首页。跟踪程序的一般流程。");
+            _logger.LogWarning("警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。");
+            _logger.LogError("错误信息。因某些故障停止工作");
+            _logger.LogCritical("程序或系统崩溃、遇到灾难性故障！！！");
+
+            #endregion
+
             Task<string> T = Task.Run(() => $" Get {ID} executed at {DateTime.UtcNow}");
             return T;
         }

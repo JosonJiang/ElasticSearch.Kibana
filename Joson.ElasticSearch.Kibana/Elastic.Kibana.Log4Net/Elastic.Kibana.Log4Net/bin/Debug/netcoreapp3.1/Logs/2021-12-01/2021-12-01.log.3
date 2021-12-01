@@ -1,0 +1,43 @@
+2021-12-01 20:01:18 线程ID:[8] 日志级别:WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 测试日志
+ 2021-12-01 20:01:18 线程ID:[1] 日志级别:INFO  Microsoft.Hosting.Lifetime  -描述: Hosting environment: Development
+ 2021-12-01 20:01:19 线程ID:[8] 日志级别:INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: JosonRequest /WeatherForecast
+ 2021-12-01 20:01:19 线程ID:[1] 日志级别:INFO  Microsoft.Hosting.Lifetime  -描述: Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+ 2021-12-01 20:01:19 线程ID:[8] 日志级别:ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: request api/values
+ System.Exception: 出错啦！！！
+2021-12-01 20:01:20 线程ID:[8] 日志级别:ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 这是一个简单日志测试
+ 2021-12-01 20:01:20 线程ID:[8] 日志级别:ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 错误信息 executed at 12/01/2021 12:01:20
+ 2021-12-01 20:01:20 线程ID:[8] 日志级别:WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 12:01:20
+ 2021-12-01 20:01:20 线程ID:[8] 日志级别:FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 12:01:20
+ 2021-12-01 20:04:37 线程ID:[1] 日志级别:INFO  Microsoft.Hosting.Lifetime  -描述: Application started. Press Ctrl+C to shut down.
+ 2021-12-01 20:04:56 线程ID:[10] 日志级别:WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 测试日志
+ 2021-12-01 20:04:56 线程ID:[1] 日志级别:INFO  Microsoft.Hosting.Lifetime  -描述: Hosting environment: Development
+ 2021-12-01 20:05:02 线程ID:[10] 日志级别:INFO  Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: JosonRequest /WeatherForecast
+ 2021-12-01 20:05:02 线程ID:[1] 日志级别:INFO  Microsoft.Hosting.Lifetime  -描述: Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+ 2021-12-01 20:05:02 线程ID:[10] 日志级别:ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: request api/values
+ System.Exception: 出错啦！！！
+2021-12-01 20:05:02 线程ID:[10] 日志级别:ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 这是一个简单日志测试
+ 2021-12-01 20:05:02 线程ID:[10] 日志级别:ERROR Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 错误信息 executed at 12/01/2021 12:05:02
+ 2021-12-01 20:05:03 线程ID:[10] 日志级别:WARN  Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 12:05:03
+ 2021-12-01 20:05:03 线程ID:[10] 日志级别:FATAL Elastic.Kibana.Log4Net.Controllers.Log4NetController  -描述: 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 12:05:03
+ 2021-12-01 20:06:14 线程ID:[33] 日志级别:ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware  -描述: An unhandled exception has occurred while executing the request.
+ log4net.Core.LogException: Repository [MeIsTestRepository] is already defined. Repositories cannot be redefined.
+   at log4net.Core.DefaultRepositorySelector.CreateRepository(String repositoryName, Type repositoryType)
+   at log4net.Core.LoggerManager.CreateRepository(String repository)
+   at log4net.LogManager.CreateRepository(String repository)
+   at Elastic.Kibana.Log4Net.Controllers.Log4NetController.Get() in E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net\Controllers\Log4NetController.cs:line 54
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)

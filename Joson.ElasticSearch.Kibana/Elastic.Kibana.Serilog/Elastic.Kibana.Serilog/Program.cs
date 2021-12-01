@@ -12,6 +12,7 @@ namespace Elastic.Kibana.Serilog
 {
     public class Program
     {
+        //https://www.8ic.cn/news-174-63355-0.html
         public static void Main(string[] args)
         {
             //configure logging first
@@ -25,7 +26,7 @@ namespace Elastic.Kibana.Serilog
         {
             var CurrentDirectory = System.IO.Directory.GetCurrentDirectory();
             var LogPath = $"logs/{DateTime.Now:yyyy/yyyy-MM-dd}";
-              
+
 
             var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
             var configuration = new ConfigurationBuilder()
@@ -54,7 +55,7 @@ namespace Elastic.Kibana.Serilog
             return new ElasticsearchSinkOptions(new Uri(configuration["ElasticConfiguration:Uri"]))
             {
                 AutoRegisterTemplate = true,
-                IndexFormat = $"{Assembly.GetExecutingAssembly().GetName().Name.ToLower().Replace(".", "-")}-{environment?.ToLower().Replace(".", "-")}-{DateTime.UtcNow:yyyy-MM}"
+                IndexFormat = $"joson.{Assembly.GetExecutingAssembly().GetName().Name.ToLower().Replace(".", "-")}-{DateTime.UtcNow:yyyy-MM-dd}-{environment?.ToLower().Replace(".", "-")}"
             };
         }
 
@@ -81,7 +82,7 @@ namespace Elastic.Kibana.Serilog
                 .ConfigureAppConfiguration(configuration =>
                 {
                     configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
-                    configuration.AddJsonFile( $"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json",optional: true);
+                    configuration.AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json", optional: true);
                 })
                 .UseSerilog();
     }

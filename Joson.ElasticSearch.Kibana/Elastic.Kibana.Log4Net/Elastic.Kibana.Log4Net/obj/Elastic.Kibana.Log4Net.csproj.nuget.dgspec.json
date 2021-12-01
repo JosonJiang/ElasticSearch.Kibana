@@ -29,6 +29,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://40.74.121.92:8081/repository/nuget-hosted/": {},
+          "https://api.nuget.org/v3/index.json": {},
           "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
@@ -54,6 +56,18 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.9, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.115.5, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
+            "log4net.ElasticSearch": {
+              "target": "Package",
+              "version": "[2.5.0, )"
             },
             "log4stash": {
               "target": "Package",

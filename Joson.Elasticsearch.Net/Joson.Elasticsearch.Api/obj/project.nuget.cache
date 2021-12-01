@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "c6p2pWISqE3ml+dNavU1C6yzEK+8xAJ+rS/p6XQCTM+PxrgWzf5ZLc9CBrlcKtjB/sJ+MUuQVQO/lLjFfsV9HQ==",
+  "dgSpecHash": "L2UiQvKHPYW7GBwTmcFw3YRs4h/u2QRjOXA/JjTEBVP73u3OV7JSTTxAs98jpppkqAeew4J6zScvHXQvSZmboQ==",
   "success": true,
   "projectFilePath": "E:\\Joson\\Net.Core\\ElasticSearch.Kibana\\Joson.Elasticsearch.Net\\Joson.Elasticsearch.Api\\Joson.Elasticsearch.Api.csproj",
   "expectedPackageFiles": [

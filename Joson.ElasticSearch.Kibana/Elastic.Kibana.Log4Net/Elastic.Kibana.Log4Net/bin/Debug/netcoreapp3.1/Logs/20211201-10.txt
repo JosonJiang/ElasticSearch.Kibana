@@ -1,0 +1,11 @@
+INFO  2021-12-01 10:54:16,862 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2021-12-01 10:54:17,313 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-12-01 10:54:17,342 [1    ] Microsoft.Hosting.Lifetime               - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+WARN  2021-12-01 10:58:31,619 [12   ] na.Log4Net.Controllers.Log4NetController - 测试日志
+INFO  2021-12-01 10:58:33,529 [12   ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+ERROR 2021-12-01 10:58:33,550 [12   ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+ERROR 2021-12-01 10:58:33,569 [12   ] na.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+ERROR 2021-12-01 10:58:33,593 [12   ] na.Log4Net.Controllers.Log4NetController - 错误信息 executed at 12/01/2021 02:58:33
+WARN  2021-12-01 10:58:33,606 [12   ] na.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 02:58:33
+FATAL 2021-12-01 10:58:33,622 [12   ] na.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 02:58:33

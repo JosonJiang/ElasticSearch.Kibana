@@ -1,0 +1,65 @@
+INFO  2021-12-01 19:01:26,504 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2021-12-01 19:01:26,783 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-12-01 19:01:26,873 [1    ] Microsoft.Hosting.Lifetime               - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+WARN  2021-12-01 19:01:26,974 [4    ] na.Log4Net.Controllers.Log4NetController - 测试日志
+INFO  2021-12-01 19:01:28,435 [4    ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+ERROR 2021-12-01 19:01:28,484 [4    ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+ERROR 2021-12-01 19:01:28,514 [4    ] na.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+ERROR 2021-12-01 19:01:28,561 [4    ] na.Log4Net.Controllers.Log4NetController - 错误信息 executed at 12/01/2021 11:01:28
+WARN  2021-12-01 19:01:28,577 [4    ] na.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 11:01:28
+FATAL 2021-12-01 19:01:28,594 [4    ] na.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 11:01:28
+WARN  2021-12-01 19:01:51,462 [11   ] na.Log4Net.Controllers.Log4NetController - 测试日志
+INFO  2021-12-01 19:01:52,593 [11   ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+ERROR 2021-12-01 19:01:52,624 [11   ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+ERROR 2021-12-01 19:01:52,656 [11   ] na.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+ERROR 2021-12-01 19:01:52,707 [11   ] na.Log4Net.Controllers.Log4NetController - 错误信息 executed at 12/01/2021 11:01:52
+WARN  2021-12-01 19:01:52,745 [11   ] na.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 11:01:52
+FATAL 2021-12-01 19:01:52,773 [11   ] na.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 11:01:52
+INFO  2021-12-01 19:05:17,071 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+WARN  2021-12-01 19:05:17,375 [10   ] na.Log4Net.Controllers.Log4NetController - ������־
+INFO  2021-12-01 19:05:17,917 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-12-01 19:05:19,179 [10   ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+INFO  2021-12-01 19:05:19,325 [1    ] Microsoft.Hosting.Lifetime               - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+ERROR 2021-12-01 19:05:19,538 [10   ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: ������������
+ERROR 2021-12-01 19:05:19,809 [10   ] na.Log4Net.Controllers.Log4NetController - ����һ������־����
+ERROR 2021-12-01 19:05:20,434 [10   ] na.Log4Net.Controllers.Log4NetController - ������Ϣ executed at 12/01/2021 11:05:20
+WARN  2021-12-01 19:05:20,899 [10   ] na.Log4Net.Controllers.Log4NetController - ����; ���; ����ע��(���ܷ�������); ʹ����; Ȱ��(ʹ��������) executed at 12/01/2021 11:05:20
+FATAL 2021-12-01 19:05:21,253 [10   ] na.Log4Net.Controllers.Log4NetController - �ؼ���; �����Ե�; ������; ���޵�; ����Ҫ��; ���ؽ�Ҫ��; ���ص�; ���ȶ���; ������Σ�յ�; executed at 12/01/2021 11:05:21
+INFO  2021-12-01 19:34:38,103 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2021-12-01 19:34:38,368 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-12-01 19:34:38,415 [1    ] Microsoft.Hosting.Lifetime               - Content root path: E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Elastic.Kibana.Log4Net\Elastic.Kibana.Log4Net
+WARN  2021-12-01 19:34:38,520 [5    ] na.Log4Net.Controllers.Log4NetController - 测试日志
+INFO  2021-12-01 19:34:39,881 [5    ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+ERROR 2021-12-01 19:34:39,942 [5    ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+ERROR 2021-12-01 19:34:39,968 [5    ] na.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+ERROR 2021-12-01 19:34:39,988 [5    ] na.Log4Net.Controllers.Log4NetController - 错误信息 executed at 12/01/2021 11:34:39
+WARN  2021-12-01 19:34:40,006 [5    ] na.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 11:34:40
+FATAL 2021-12-01 19:34:40,024 [5    ] na.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 11:34:40
+WARN  2021-12-01 19:35:12,853 [8    ] na.Log4Net.Controllers.Log4NetController - 测试日志
+INFO  2021-12-01 19:35:13,644 [8    ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+ERROR 2021-12-01 19:35:13,682 [8    ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+ERROR 2021-12-01 19:35:13,710 [8    ] na.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+ERROR 2021-12-01 19:35:13,731 [8    ] na.Log4Net.Controllers.Log4NetController - 错误信息 executed at 12/01/2021 11:35:13
+WARN  2021-12-01 19:35:13,753 [8    ] na.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 11:35:13
+FATAL 2021-12-01 19:35:13,776 [8    ] na.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 11:35:13
+WARN  2021-12-01 19:35:28,927 [4    ] na.Log4Net.Controllers.Log4NetController - 测试日志
+INFO  2021-12-01 19:35:30,278 [4    ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+ERROR 2021-12-01 19:35:30,348 [4    ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+ERROR 2021-12-01 19:35:30,377 [4    ] na.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+ERROR 2021-12-01 19:35:30,408 [4    ] na.Log4Net.Controllers.Log4NetController - 错误信息 executed at 12/01/2021 11:35:30
+WARN  2021-12-01 19:35:30,425 [4    ] na.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 11:35:30
+FATAL 2021-12-01 19:35:30,453 [4    ] na.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 11:35:30
+WARN  2021-12-01 19:36:40,098 [40   ] na.Log4Net.Controllers.Log4NetController - 测试日志
+INFO  2021-12-01 19:36:41,450 [40   ] na.Log4Net.Controllers.Log4NetController - JosonRequest /WeatherForecast
+ERROR 2021-12-01 19:36:41,491 [40   ] na.Log4Net.Controllers.Log4NetController - request api/values
+System.Exception: 出错啦！！！
+ERROR 2021-12-01 19:36:41,537 [40   ] na.Log4Net.Controllers.Log4NetController - 这是一个简单日志测试
+ERROR 2021-12-01 19:36:41,556 [40   ] na.Log4Net.Controllers.Log4NetController - 错误信息 executed at 12/01/2021 11:36:41
+WARN  2021-12-01 19:36:41,575 [40   ] na.Log4Net.Controllers.Log4NetController - 警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 11:36:41
+FATAL 2021-12-01 19:36:41,591 [40   ] na.Log4Net.Controllers.Log4NetController - 关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 11:36:41

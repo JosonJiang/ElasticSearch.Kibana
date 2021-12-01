@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{995608D3-C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF155E46-BB35-491A-8D83-BC5FA65C1A0A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "log4net.ElasticSearchAppender.Consoles", "..\test\ConsoleApp1\log4net.ElasticSearchAppender.Consoles.csproj", "{C12D8CCF-87A2-4F9B-AE31-273373A3AB52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "..\test\ConsoleApp1\ConsoleApp1.csproj", "{C12D8CCF-87A2-4F9B-AE31-273373A3AB52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

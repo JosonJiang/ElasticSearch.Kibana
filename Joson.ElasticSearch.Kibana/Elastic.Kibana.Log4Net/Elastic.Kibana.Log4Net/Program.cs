@@ -34,9 +34,14 @@ namespace Elastic.Kibana.Log4Net
                      logging.AddLog4Net();
 
                  })
+                //.UseLog4Net()
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+ 
     }
+
+ 
+
 }

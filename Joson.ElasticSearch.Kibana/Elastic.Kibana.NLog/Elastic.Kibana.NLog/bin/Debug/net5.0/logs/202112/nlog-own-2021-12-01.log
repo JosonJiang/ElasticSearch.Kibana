@@ -1,0 +1,744 @@
+2021-12-01 15:35:34.7649||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get  WeatherForecastController executed at 12/01/2021 07:35:34  
+ --- |url: https://localhost/NLog|action: Get
+2021-12-01 15:35:34.9499||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息 executed at 12/01/2021 07:35:34  
+ --- |url: https://localhost/NLog|action: Get
+2021-12-01 15:35:34.9689||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 07:35:34  
+ --- |url: https://localhost/NLog|action: Get
+2021-12-01 15:35:34.9829||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 07:35:34  
+ --- |url: https://localhost/NLog|action: Get
+2021-12-01 15:35:38.7853||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 5 executed at 12/01/2021 07:35:38  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:35:38.8023||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 5 executed at 12/01/2021 07:35:38  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:35:38.8133||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 5 executed at 12/01/2021 07:35:38  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:35:38.8253||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 5 executed at 12/01/2021 07:35:38  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:35:38.8393||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:35:38.8393||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:35:38.8613||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:35:38.8773||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:41:05.0201||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 5 executed at 12/01/2021 07:41:04  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:41:05.0801||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 5 executed at 12/01/2021 07:41:05  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:41:05.1011||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 5 executed at 12/01/2021 07:41:05  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:41:05.1271||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 5 executed at 12/01/2021 07:41:05  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:41:05.1751||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:41:05.1921||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:41:05.2061||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:41:05.2231||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:41:25.5132||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 5 executed at 12/01/2021 07:41:25  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:41:25.5642||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 5 executed at 12/01/2021 07:41:25  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:41:25.5822||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 5 executed at 12/01/2021 07:41:25  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:41:25.5972||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 5 executed at 12/01/2021 07:41:25  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:41:25.6112||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:41:25.6312||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:41:25.6462||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:41:25.6692||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/5|action: Get
+2021-12-01 15:43:36.5403||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get  WeatherForecastController executed at 12/01/2021 07:43:36  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 15:43:36.5543||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息 executed at 12/01/2021 07:43:36  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 15:43:36.5743||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 07:43:36  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 15:43:36.5893||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 07:43:36  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 15:45:57.6654||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get  WeatherForecastController executed at 12/01/2021 07:45:57  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 15:45:57.6824||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息 executed at 12/01/2021 07:45:57  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 15:45:57.7094||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 07:45:57  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 15:45:57.7264||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 07:45:57  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 15:57:26.1502||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get  WeatherForecastController executed at 12/01/2021 07:57:26  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 15:57:26.2622||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息 executed at 12/01/2021 07:57:26  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 15:57:26.2832||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 07:57:26  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 15:57:26.2962||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 07:57:26  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 16:01:02.5332||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get  WeatherForecastController executed at 12/01/2021 08:01:02  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 16:01:03.1742||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息 executed at 12/01/2021 08:01:03  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 16:01:03.2112||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 08:01:03  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 16:01:03.2442||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 08:01:03  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 16:04:09.2472||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get  WeatherForecastController executed at 12/01/2021 08:04:09  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 16:04:09.9062||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息 executed at 12/01/2021 08:04:09  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 16:04:09.9502||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 08:04:09  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 16:04:09.9922||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 08:04:09  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 16:07:09.7162||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get  WeatherForecastController executed at 12/01/2021 08:07:09  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 16:07:09.7672||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息 executed at 12/01/2021 08:07:09  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 16:07:09.8082||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 08:07:09  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 16:07:09.8552||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 08:07:09  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 16:07:12.4402||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get  WeatherForecastController executed at 12/01/2021 08:07:12  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 16:07:12.4992||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息 executed at 12/01/2021 08:07:12  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 16:07:12.5472||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告; 告诫; 提醒注意(可能发生的事); 使警惕; 劝告(使有所防备) executed at 12/01/2021 08:07:12  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 16:07:12.6062||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+关键的; 批判性的; 批评的; 挑剔的; 极重要的; 至关紧要的; 严重的; 不稳定的; 可能有危险的; executed at 12/01/2021 08:07:12  
+ --- |url: https://localhost/NLog/|action: Get
+2021-12-01 16:08:06.7442||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:08:06  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:08:06.8002||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:08:06  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:08:06.8422||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:08:06  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:08:06.8792||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:08:06  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:08:06.9202||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:08:06.9542||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:08:06.9862||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:08:07.0322||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:11:14.8708||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:11:14  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:11:15.4624||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:11:15  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:11:15.5040||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:11:15  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:11:15.5456||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:11:15  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:11:15.5862||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:11:15.6215||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:11:15.6590||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:11:15.7037||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:14:33.3557||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:14:33  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:14:33.8938||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:14:33  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:14:33.9428||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:14:33  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:14:33.9868||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:14:33  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:14:34.0358||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:14:34.0698||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:14:34.1148||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:14:34.1878||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:18:26.6721||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:18:26  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:18:27.2861||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:18:27  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:18:27.3391||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:18:27  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:18:27.3541||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:18:27  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:18:27.4041||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:18:27.4372||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:18:27.4622||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:18:27.4772||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:19:31.8726||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:19:31  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:19:31.9096||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:19:31  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:19:31.9256||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:19:31  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:19:31.9586||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:19:31  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:19:31.9896||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:19:32.0076||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:19:32.0386||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:19:32.0676||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:20:12.1416||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:20:12  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:20:12.7367||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:20:12  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:20:12.7697||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:20:12  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:20:12.8077||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:20:12  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:20:12.8477||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:20:12.8627||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:20:12.8997||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:20:12.9347||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:08.9483||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:22:08  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:09.0313||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:22:09  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:09.0633||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:22:09  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:09.1023||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:22:09  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:09.1343||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:09.1643||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:09.1973||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:09.2393||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:38.8203||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:22:38  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:38.8883||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:22:38  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:38.9213||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:22:38  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:38.9673||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:22:38  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:38.9933||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:39.0453||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:39.0873||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:39.1373||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:41.1795||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:22:41  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:41.2255||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:22:41  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:41.2445||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:22:41  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:41.2705||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:22:41  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:41.3025||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:41.3395||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:41.3525||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:22:41.3865||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:25:16.1860||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:25:16  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:25:16.6411||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:25:16  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:25:16.6751||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:25:16  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:25:16.7211||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:25:16  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:25:16.7571||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:25:16.8051||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:25:16.8431||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:25:16.8851||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:35.3076||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:31:35  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:35.8497||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:31:35  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:35.8797||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:31:35  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:35.9147||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:31:35  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:35.9477||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:35.9787||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:36.0127||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:36.0457||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:39.1790||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:31:39  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:39.2200||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:31:39  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:39.2550||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:31:39  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:39.2870||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:31:39  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:39.3200||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:39.3550||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:39.3950||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:39.4290||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:57.4388||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:31:57  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:57.4959||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:31:57  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:57.5379||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:31:57  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:57.5699||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:31:57  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:57.6029||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:57.6439||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:57.6809||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:31:57.7339||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:34:40.7202||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:34:40  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:34:41.2492||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:34:41  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:34:41.3182||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:34:41  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:34:41.3732||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:34:41  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:34:41.4242||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:34:41.4672||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:34:41.5143||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:34:41.5753||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:36:34.8566||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:36:34  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:36:34.9306||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:36:34  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:36:34.9806||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:36:34  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:36:35.0266||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:36:35  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:36:35.0796||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:36:35.1126||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:36:35.1526||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:36:35.2006||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:36:36.7188||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:36:36  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:36:36.7718||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:36:36  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:36:36.8048||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:36:36  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:36:36.8338||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:36:36  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:36:36.8798||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:36:36.9178||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:36:36.9488||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:36:36.9948||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:42:42.4643||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:42:42  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:42:42.9364||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:42:42  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:42:42.9674||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:42:42  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:42:42.9984||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:42:42  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:42:43.0584||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:42:43.0944||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:42:43.1334||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:42:43.1744||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:49:48.5957||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:49:48  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:49:51.5487||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:49:51  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:49:51.6567||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:49:51  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:49:51.7607||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:49:51  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:49:51.8547||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:49:51.9567||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:49:52.0997||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:49:52.4307||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:50:13.1537||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:50:13  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:50:13.2837||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:50:13  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:50:13.3877||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:50:13  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:50:13.4857||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:50:13  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:50:13.5667||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:50:13.6997||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:50:13.8317||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:50:13.9157||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:50:33.7807||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:50:33  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:50:33.8997||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:50:33  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:50:33.9797||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:50:33  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:50:34.0627||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:50:34  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:50:34.1517||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:50:34.2487||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:50:34.3467||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:50:34.5057||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:52:56.2967||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:52:56  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:52:56.4367||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:52:56  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:52:56.5307||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:52:56  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:52:56.6237||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:52:56  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:52:56.7337||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:52:56.9407||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:52:57.0397||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:52:57.1267||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:53:40.4537||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:53:40  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:53:41.7477||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:53:41  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:53:41.8557||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:53:41  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:53:42.0107||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:53:42  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:53:42.1137||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:53:42.2187||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:53:42.3117||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:53:42.3957||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:57:11.1257||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 08:57:11  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:57:12.2937||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 08:57:12  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:57:12.3957||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 08:57:12  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:57:12.4787||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 08:57:12  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:57:12.6117||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:57:12.6937||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:57:12.7677||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 16:57:12.9747||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 17:57:21.6155||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+LogError 9 executed at 12/01/2021 09:57:21  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 17:57:22.9487||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+LogWarning 9 executed at 12/01/2021 09:57:22  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 17:57:23.0407||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+Get 9 executed at 12/01/2021 09:57:23  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 17:57:23.1477||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+LogCritical 9 executed at 12/01/2021 09:57:23  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 17:57:23.2497||INFO|Elastic.Kibana.NLog.Controllers.NLogController 
+你访问了首页。跟踪程序的一般流程。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 17:57:23.3447||WARN|Elastic.Kibana.NLog.Controllers.NLogController 
+警告信息！因程序出现故障或其他不会导致程序停止的流程异常或意外事件。  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 17:57:23.4257||ERROR|Elastic.Kibana.NLog.Controllers.NLogController 
+错误信息。因某些故障停止工作  
+ --- |url: https://localhost/NLog/9|action: Get
+2021-12-01 17:57:23.5357||FATAL|Elastic.Kibana.NLog.Controllers.NLogController 
+程序或系统崩溃、遇到灾难性故障！！！  
+ --- |url: https://localhost/NLog/9|action: Get
