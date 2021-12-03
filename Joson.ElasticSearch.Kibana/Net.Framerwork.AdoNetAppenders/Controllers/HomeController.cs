@@ -20,11 +20,8 @@ namespace Net.Framerwork.AdoNetAppenders.Controllers
         {
 
 
-
-
             using (Stream stream = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("Net.Framerwork.AdoNetAppenders.Properties.log4net.config"))
             {
-                // stream is NOT null
                 log4net.Config.XmlConfigurator.Configure(stream);
             }
 
@@ -81,15 +78,49 @@ namespace Net.Framerwork.AdoNetAppenders.Controllers
 
             }
 
-
-
             ILog log = log4net.LogManager.GetLogger("Log");
+
+            //https://stackoverflow.com/questions/12139486/log4net-how-to-add-a-custom-field-to-my-logging
+            log4net.LogicalThreadContext.Properties["BrowserInfo"] = "Custom value BrowserInfo";
+            log4net.GlobalContext.Properties["ClientIP"] = "192.168.0.1";
+            log4net.GlobalContext.Properties["ClientName"] = "ClientName";
             log.Error("ActionResult -Index");
+
+
+
+            Monitor.Helper.LogHelper logHelper = new Monitor.Helper.LogHelper();
+            logHelper.Write(new Monitor.Helper.LogEntity
+            {
+            
+                ClientName = "ClientName",
+                BrowserInfo = "Custom value BrowserInfo",
+                CustomData = new
+                {
+                    Requesturl = "Requesturl",
+                    Others = "Others",
+                    Referrerurl = "Referrerurl"
+                }
+            });
+
+
+            Monitor.Helper.LogEncapsulation.Info(new
+            {
+                ClientIP = "192.168.0.1",
+                ClientName = "ClientName",
+                Requesturl = "Requesturl",
+                Referrerurl = "Referrerurl",
+                CustomData = new
+                {
+                    Others = "Others",
+                    Joson = "Jiang"
+                }
+            });
 
 
 
 
             return View();
+
         }
 
         public ActionResult About()

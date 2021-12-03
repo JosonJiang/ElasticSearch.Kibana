@@ -11,3 +11,4 @@ E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\NET.Standard.E
 E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\NET.Standard.Elastic.Kibana.Log4Net\obj\Debug\netstandard2.0\NET.Standard.Elastic.Kibana.Log4Net.dll
 E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\NET.Standard.Elastic.Kibana.Log4Net\obj\Debug\netstandard2.0\NET.Standard.Elastic.Kibana.Log4Net.pdb
 E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\NET.Standard.Elastic.Kibana.Log4Net\bin\Debug\netstandard2.0\NET.Standard.Elastic.Kibana.Log4Net.dll.config
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\NET.Standard.Elastic.Kibana.Log4Net\obj\Debug\netstandard2.0\NET.Standard.Elastic.Kibana.Log4Net.csprojAssemblyReference.cache

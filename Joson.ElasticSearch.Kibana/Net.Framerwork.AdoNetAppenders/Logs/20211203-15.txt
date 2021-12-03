@@ -1,0 +1,16 @@
+ERROR 2021-12-03 15:48:54,884 [9    ] Log                                      - ActionResult -Index
+INFO  2021-12-03 15:49:13,219 [9    ] Net.Monitor.Helper.LogEncapsulation      - Net.Monitor.Helper.LogEntity
+INFO  2021-12-03 15:49:37,434 [9    ] Net.Monitor.Helper.LogEncapsulation      - { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+INFO  2021-12-03 15:50:29,091 [9    ] Net.Monitor.Helper.LogEncapsulation      - Net.Monitor.Helper.LogEntity
+ERROR 2021-12-03 15:52:41,513 [13   ] Log                                      - ActionResult -Index
+INFO  2021-12-03 15:52:42,367 [13   ] Net.Monitor.Helper.LogEncapsulation      - Net.Monitor.Helper.LogEntity
+INFO  2021-12-03 15:52:42,615 [13   ] Net.Monitor.Helper.LogEncapsulation      - { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+INFO  2021-12-03 15:52:44,483 [13   ] Net.Monitor.Helper.LogEncapsulation      - Net.Monitor.Helper.LogEntity
+ERROR 2021-12-03 15:54:04,544 [20   ] Log                                      - ActionResult -Index
+INFO  2021-12-03 15:54:06,206 [20   ] Net.Monitor.Helper.LogEncapsulation      - Net.Monitor.Helper.LogEntity
+INFO  2021-12-03 15:54:06,395 [20   ] Net.Monitor.Helper.LogEncapsulation      - { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+INFO  2021-12-03 15:54:09,517 [20   ] Net.Monitor.Helper.LogEncapsulation      - Net.Monitor.Helper.LogEntity
+ERROR 2021-12-03 15:57:30,243 [19   ] Log                                      - ActionResult -Index
+INFO  2021-12-03 15:57:32,258 [19   ] Net.Monitor.Helper.LogEncapsulation      - Net.Monitor.Helper.LogEntity
+INFO  2021-12-03 15:57:32,416 [19   ] Net.Monitor.Helper.LogEncapsulation      - { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+INFO  2021-12-03 15:57:55,161 [19   ] Net.Monitor.Helper.LogEncapsulation      - Net.Monitor.Helper.LogEntity

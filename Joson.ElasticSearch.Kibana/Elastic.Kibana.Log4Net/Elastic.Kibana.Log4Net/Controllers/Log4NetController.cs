@@ -51,10 +51,10 @@ namespace Elastic.Kibana.Log4Net.Controllers
         {
             Console.WriteLine("测试日志");
 
-            log4net.LogManager.CreateRepository("MesIRepository");
-            log4net.ILog logs = Log4Net.Log4NetExtensions.GetLog();
-            logs.Debug("动态给log4net添加日志类型");
-            logs.Info("动态生成日志配置项  生成的日志配应该是保存在内存中的，如果停止运行会消失，不会保存到log4net.config文件中");
+            //log4net.LogManager.CreateRepository("MesIRepository");
+            //log4net.ILog logs = Log4Net.Log4NetExtensions.GetLog();
+            //logs.Debug("动态给log4net添加日志类型");
+            //logs.Info("动态生成日志配置项  生成的日志配应该是保存在内存中的，如果停止运行会消失，不会保存到log4net.config文件中");
 
 
             _logger.LogWarning("测试日志");

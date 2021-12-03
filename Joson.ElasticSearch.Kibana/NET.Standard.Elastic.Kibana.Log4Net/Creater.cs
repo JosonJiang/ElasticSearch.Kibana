@@ -5,29 +5,65 @@ using System.Linq;
 using System.Reflection;
 using System.Configuration;
 using System.Web;
+
+
+
 namespace NET.Standard.Elastic.Kibana.Log4Net
 {
     using log4net;
     using log4net.Config;
     using log4net.Layout;
     using log4net.Layout.Pattern;
-    using MicroKnights.Logging;
 
+    //Apache log4net™ Config Examples
     //http://logging.apache.org/log4net/release/config-examples.html
 
-    //https://blog.csdn.net/kongwei521/article/details/52242319
-    //https://www.cnblogs.com/zeroes/p/elk-log4net-kibana.html
-    //https://stackoverflow.com/questions/10834884/log4net-with-adonetappender-nothing-happens
+    //https://csharp.hotexamples.com/examples/log4net.Layout/PatternLayout/ActivateOptions/php-patternlayout-activateoptions-method-examples.html
 
+
+
+    //Log4Net, how to add a custom field to my logging
+    //https://stackoverflow.com/questions/12139486/log4net-how-to-add-a-custom-field-to-my-logging
+    //CustomerPatternConverter
+    //https://blog.csdn.net/kongwei521/article/details/52242319
+
+    //https://stackoverflow.com/questions/10834884/log4net-with-adonetappender-nothing-happens
+    //https://hendrikbulens.com/2016/01/14/custom-properties-in-log4net-logging/
+
+
+    //ELK日志框架（2）：log4net.ElasticSearch+ Kibana实现日志记录和显示
+    //https://www.cnblogs.com/zeroes/p/elk-log4net-kibana.html
+
+
+
+
+
+    //https://thesoftwayfarecoder.com/including-the-user-name-info-in-the-conversion-pattern-of-log4net-on-asp-net-core/
+    //https://codedefault.com/p/log4net-extension-aspnetcore
     //.NET 结合ELK+log4net实现集中式日志解决方案
     //https://www.zhidao91.com/donet-elk-log4net/
-    public class Creater
+    public static class Creater
     {
 
-        public Creater()
+        //public  Creater()
+        //{
+
+        //}
+
+
+
+        public static ILog LogsAuto(String Repository = "MeIRepository")
         {
 
+            log4net.LogManager.CreateRepository(Repository);
+            log4net.ILog logs = Log4Net.Log4NetExtensions.GetLog(Repository);
+            logs.Debug("LogsAuto 动态给log4net添加日志类型");
+            logs.Info(" LogsAuto 动态生成日志配置项  生成的日志配应该是保存在内存中的，如果停止运行会消失，不会保存到log4net.config文件中");
+
+            return logs;
+
         }
+
 
         public static ILog Logs(String ConfigFile = "log4net.config", String LoggerName = "NETCorelog4net")
         {
@@ -46,8 +82,6 @@ namespace NET.Standard.Elastic.Kibana.Log4Net
         }
 
     }
-
-
 
 
     /// <summary>
@@ -85,99 +119,5 @@ namespace NET.Standard.Elastic.Kibana.Log4Net
 
 
     }
-
-
-    #region JosonLayout
-
-    public class JosonLayout : PatternLayout
-    {
-        public JosonLayout()
-        {
-            this.AddConverter("property", typeof(LogInfoPatternConverter));
-        }
-    }
-
-    public class LogInfoPatternConverter : PatternLayoutConverter
-    {
-
-        protected override void Convert(System.IO.TextWriter writer, log4net.Core.LoggingEvent loggingEvent)
-        {
-            if (Option != null)
-            {
-                // Write the value for the specified key
-                WriteObject(writer, loggingEvent.Repository, LookupProperty(Option, loggingEvent));
-            }
-            else
-            {
-                // Write all the key value pairs
-                WriteDictionary(writer, loggingEvent.Repository, loggingEvent.GetProperties());
-            }
-        }
-        /// <summary>
-        /// 通过反射获取传入的日志对象的某个属性的值
-        /// </summary>
-        /// <param name="property"></param>
-        /// <returns></returns>
-
-        private object LookupProperty(string property, log4net.Core.LoggingEvent loggingEvent)
-        {
-            object propertyValue = string.Empty;
-            PropertyInfo propertyInfo = loggingEvent.MessageObject.GetType().GetProperty(property);
-            if (propertyInfo != null)
-                propertyValue = propertyInfo.GetValue(loggingEvent.MessageObject, null);
-            return propertyValue;
-        }
-    }
-
-    #endregion
-
-
-    #region 数据库日志相关
-    /// <summary>
-    /// 将数据库链接字符串独立出来
-    /// </summary>
-    public class MyAdoNetAppender : AdoNetAppender
-    {
-        //private static IJosonLog _Log;
-        //private string _ConnectionStringName;
-        //public string ConnectionStringName
-        //{
-        //    get { return _ConnectionStringName; }
-        //    set { _ConnectionStringName = value; }
-        //}
-        //protected static IJosonLog Log
-        //{
-        //    get
-        //    {
-        //        if (_Log == null)
-        //            _Log = JosonLogManager.GetLogger(typeof(MyAdoNetAppender));
-        //        return _Log;
-        //    }
-        //}
-        //public override void ActivateOptions() { PopulateConnectionString(); base.ActivateOptions(); }
-
-        ///// <summary>
-        ///// 获取或设置数据库连接字符串
-        ///// </summary>
-        //private void PopulateConnectionString()
-        //{
-        //    // 如果配置文件中设置了ConnectionString，则返回
-        //    if (!String.IsNullOrEmpty(ConnectionString)) return;
-        //    // 如果配置文件中没有设置ConnectionStringName，则返回
-        //    if (String.IsNullOrEmpty(ConnectionStringName)) return;
-        //    // 获取对应Web.config中的连接字符串配置
-        //    ConnectionStringSettings settings = ConfigurationManager.ConnectionStrings[ConnectionStringName];
-        //    if (settings == null)
-        //    {
-        //        if (Log.IsErrorEnabled)
-        //            Log.ErrorFormat("Connection String Name not found in Configuration: {0}", ConnectionStringName);
-        //        return;
-        //    }
-        //    //返回解密的连接字符串
-        //    ConnectionString = settings.ConnectionString;// new DESEncrypt().Decrypt(settings.ConnectionString, null);
-        //}
-    }
-    #endregion
-
 
 }

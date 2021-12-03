@@ -19,10 +19,13 @@ namespace Net.Framerwork.AdoNetAppenders
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             //应用程序启动时，自动加载配置log4Net  
-            XmlConfigurator.Configure();
-            //var FileLog4net = new System.IO.FileInfo(Server.MapPath("~/Properties/") + @"log4net.config");
-            //XmlConfigurator.ConfigureAndWatch(FileLog4net);
+            //XmlConfigurator.Configure();
+            //var FileLog4net = new System.IO.FileInfo(Server.MapPath("~/") + @"log4net.config");
+            //XmlConfigurator.Configure(FileLog4net);
 
+            var ConfigFilePath = Net.Monitor.Helper.LogHelper.ConfigFilePath ?? Server.MapPath("~/Properties/") + @"log4net.config";
+            var FileLog4net = new System.IO.FileInfo(ConfigFilePath);
+            XmlConfigurator.ConfigureAndWatch(FileLog4net);
 
 
         }

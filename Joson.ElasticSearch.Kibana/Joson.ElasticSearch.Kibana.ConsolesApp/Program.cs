@@ -10,16 +10,25 @@ namespace Joson.ElasticSearch.Kibana.ConsolesApp
     class Program
     {
 
-
-
-
-
-
+ 
 
         private static readonly ILog _log = LogManager.GetLogger(typeof(Program));
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            #region  Creater.LogsAuto();
+
+            var Repository = "MeRepository";
+            LogManager.CreateRepository(Repository);
+            ILog logs = Log4NetExtensions.GetLog(Repository);
+
+            logs.Debug("动态给log4net添加日志类型");
+            logs.Info("动态生成日志配置项  生成的日志配应该是保存在内存中的，如果停止运行会消失，不会保存到log4net.config文件中");
+            logs.Warn("WarnWarnWarnWarnWarnWarn"); 
+
+            #endregion
+
 
 
             var log4netRepository = LogManager.GetRepository(Assembly.GetEntryAssembly());

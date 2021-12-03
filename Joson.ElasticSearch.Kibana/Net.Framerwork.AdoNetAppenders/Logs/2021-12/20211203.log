@@ -1,0 +1,245 @@
+2021-12-03 15:48:54 线程ID:[9] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 15:49:13 线程ID:[9] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 15:49:37 线程ID:[9] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 15:50:29 线程ID:[9] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 15:52:41 线程ID:[13] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 15:52:42 线程ID:[13] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 15:52:42 线程ID:[13] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 15:52:44 线程ID:[13] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 15:54:04 线程ID:[20] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 15:54:06 线程ID:[20] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 15:54:06 线程ID:[20] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 15:54:09 线程ID:[20] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 15:57:30 线程ID:[19] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 15:57:32 线程ID:[19] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 15:57:32 线程ID:[19] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 15:57:55 线程ID:[19] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:04:41 线程ID:[9] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:04:43 线程ID:[9] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:04:43 线程ID:[9] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:04:46 线程ID:[9] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:06:42 线程ID:[6] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:06:43 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:06:43 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:06:45 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:09:30 线程ID:[17] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:10:25 线程ID:[17] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:10:25 线程ID:[17] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:10:28 线程ID:[17] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:11:43 线程ID:[9] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:11:46 线程ID:[9] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:11:46 线程ID:[9] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:11:49 线程ID:[9] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:14:43 线程ID:[7] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:14:46 线程ID:[7] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:14:47 线程ID:[7] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:14:49 线程ID:[7] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:16:55 线程ID:[7] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:16:58 线程ID:[7] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:16:58 线程ID:[7] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:17:01 线程ID:[7] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:18:36 线程ID:[16] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:18:40 线程ID:[16] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:18:45 线程ID:[16] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:18:49 线程ID:[16] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:24:30 线程ID:[6] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:24:34 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:24:34 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:24:37 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:26:55 线程ID:[7] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:26:59 线程ID:[7] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:26:59 线程ID:[7] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:27:02 线程ID:[7] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:30:04 线程ID:[8] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:30:06 线程ID:[8] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:30:06 线程ID:[8] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:30:08 线程ID:[8] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:31:35 线程ID:[8] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:31:36 线程ID:[8] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:31:36 线程ID:[8] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:31:38 线程ID:[8] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:32:39 线程ID:[21] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:32:40 线程ID:[21] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:32:40 线程ID:[21] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:32:43 线程ID:[21] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:33:00 线程ID:[6] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:33:01 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:33:02 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:33:04 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:33:57 线程ID:[6] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:33:58 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:33:58 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:34:00 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:34:12 线程ID:[6] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:34:12 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:34:13 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:34:14 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:34:46 线程ID:[17] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:34:47 线程ID:[17] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:34:47 线程ID:[17] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:34:49 线程ID:[17] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:35:12 线程ID:[17] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:35:14 线程ID:[17] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:35:14 线程ID:[17] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:35:16 线程ID:[17] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:36:10 线程ID:[15] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:36:11 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:36:11 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:36:13 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:36:43 线程ID:[15] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:36:44 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:36:44 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:36:47 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:37:09 线程ID:[15] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:37:10 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:37:10 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:37:13 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:38:36 线程ID:[10] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:38:38 线程ID:[10] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:38:39 线程ID:[10] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:38:42 线程ID:[10] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:39:29 线程ID:[29] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:39:30 线程ID:[29] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:39:30 线程ID:[29] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:39:33 线程ID:[29] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:39:51 线程ID:[29] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:49:47 线程ID:[6] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:49:50 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:49:50 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:49:52 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:50:28 线程ID:[6] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:50:29 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:50:29 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:50:31 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:52:49 线程ID:[8] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:52:52 线程ID:[8] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:52:52 线程ID:[8] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:53:32 线程ID:[8] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:54:00 线程ID:[26] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:54:22 线程ID:[26] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:54:30 线程ID:[26] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:54:59 线程ID:[26] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:56:32 线程ID:[8] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:56:47 线程ID:[8] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:56:54 线程ID:[8] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:59:01 线程ID:[8] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:59:09 线程ID:[8] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 16:59:10 线程ID:[8] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 16:59:10 线程ID:[8] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 16:59:13 线程ID:[8] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:03:19 线程ID:[40] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 17:03:21 线程ID:[40] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:03:24 线程ID:[40] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 17:03:28 线程ID:[40] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:03:36 线程ID:[40] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 17:03:38 线程ID:[40] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:03:38 线程ID:[40] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 17:03:41 线程ID:[40] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:06:12 线程ID:[33] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 17:06:19 线程ID:[33] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:06:20 线程ID:[33] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 17:15:44 线程ID:[7] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 17:15:46 线程ID:[7] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:15:46 线程ID:[7] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 17:15:49 线程ID:[7] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:16:11 线程ID:[15] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 17:16:15 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:16:18 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 17:16:30 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:17:46 线程ID:[20] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 17:17:47 线程ID:[20] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:17:47 线程ID:[20] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 17:17:50 线程ID:[20] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:18:24 线程ID:[17] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 17:18:25 线程ID:[17] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:18:26 线程ID:[17] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 17:18:29 线程ID:[17] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:19:15 线程ID:[9] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 17:19:21 线程ID:[9] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:19:21 线程ID:[9] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 17:20:03 线程ID:[9] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:49:27 线程ID:[6] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 17:49:31 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:49:32 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 17:49:35 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:53:06 线程ID:[19] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 17:53:09 线程ID:[19] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:53:10 线程ID:[19] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 17:53:13 线程ID:[19] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:55:12 线程ID:[15] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 17:55:15 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:55:16 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 17:56:51 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:56:57 线程ID:[24] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 17:56:59 线程ID:[24] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:57:00 线程ID:[24] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 17:57:48 线程ID:[24] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:57:54 线程ID:[24] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 17:59:21 线程ID:[24] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 17:59:22 线程ID:[24] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 18:01:58 线程ID:[24] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:04:09 线程ID:[26] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 18:04:58 线程ID:[26] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:05:09 线程ID:[26] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 18:06:59 线程ID:[26] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:10:17 线程ID:[39] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 18:13:42 线程ID:[39] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:13:45 线程ID:[39] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 18:14:34 线程ID:[39] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:17:39 线程ID:[6] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 18:17:43 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:17:45 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 18:17:48 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:18:23 线程ID:[15] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 18:18:26 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:18:27 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 18:18:35 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:21:57 线程ID:[24] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 18:21:59 线程ID:[24] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:21:59 线程ID:[24] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 18:22:01 线程ID:[24] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:22:49 线程ID:[24] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 18:22:51 线程ID:[24] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:22:51 线程ID:[24] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 18:23:06 线程ID:[24] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:31:38 线程ID:[7] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 18:31:41 线程ID:[7] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:31:41 线程ID:[7] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 18:31:51 线程ID:[7] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:31:54 线程ID:[7] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:33:32 线程ID:[15] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 18:33:33 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:33:33 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 18:33:35 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:33:35 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:33:59 线程ID:[15] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 18:33:59 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:34:00 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 18:34:01 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:34:02 线程ID:[15] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:35:49 线程ID:[35] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 18:35:50 线程ID:[35] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:35:50 线程ID:[35] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 18:35:52 线程ID:[35] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:35:52 线程ID:[35] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:36:07 线程ID:[35] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 18:36:08 线程ID:[35] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:36:08 线程ID:[35] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 18:36:11 线程ID:[35] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:36:11 线程ID:[35] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:39:13 线程ID:[6] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 18:39:15 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:39:15 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 18:39:21 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:39:34 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:40:21 线程ID:[6] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 18:40:22 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:40:23 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 18:40:28 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:41:02 线程ID:[6] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:46:58 线程ID:[9] 日志级别:ERROR Log  -描述: ActionResult -Index
+ 2021-12-03 18:47:00 线程ID:[9] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:47:00 线程ID:[9] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: { ClientIP = 192.168.0.1, ClientName = ClientName, Requesturl = Requesturl, Referrerurl = Referrerurl, CustomData = { Others = Others, Joson = Jiang } }
+ 2021-12-03 18:47:01 线程ID:[9] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 2021-12-03 18:47:07 线程ID:[9] 日志级别:INFO  Net.Monitor.Helper.LogEncapsulation  -描述: Net.Monitor.Helper.LogEntity
+ 

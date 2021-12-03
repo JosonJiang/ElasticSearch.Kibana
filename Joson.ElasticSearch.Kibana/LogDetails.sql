@@ -14,16 +14,88 @@ CREATE TABLE [dbo].[LogDetails] (
 
 
 
-CREATE TABLE [dbo].[Log4]
- (
-    [Id] [int] IDENTITY (1, 1) NOT NULL,
-    [Date] [datetime] NOT NULL,
-    [Thread] [varchar] (255) NOT NULL,
-    [Level] [varchar] (50) NOT NULL,
-    [Logger] [varchar] (255) NOT NULL,
-    [Message] [varchar] (4000) NOT NULL,
-    [Exception] [varchar] (2000) NULL
-)
+CREATE TABLE [dbo].[Log4Net](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[Date] [datetime] NOT NULL,
+	[Thread] [nvarchar](250) NOT NULL,
+	[Level] [nvarchar](250) NOT NULL,
+	[Logger] [nvarchar](250) NOT NULL,
+	[Application] [nvarchar](255) NULL,
+	[TraceID] [nvarchar](500) NULL,
+	[EventID] [nvarchar](500) NULL,
+	[User] [nvarchar](500) NULL,
+	[Category] [nvarchar](255) NULL,
+	[Callsite] [nvarchar](255) NULL,
+	[Requesturl] [nvarchar](255) NULL,
+	[Referrerurl] [nvarchar](255) NULL,
+	[Method] [nvarchar](15) NULL,
+	[Action] [nvarchar](255) NULL,
+	[Properties] [nvarchar](50) NULL,
+	[Parameters] [varchar](4000) NULL,
+	[CustomData] [nvarchar](max) NULL,
+	[ExecutionDuration] [nvarchar](50) NULL,
+	[Message] [nvarchar](max) NULL,
+	[Exception] [nvarchar](2000) NULL,
+	[Stacktrace] [nvarchar](max) NULL,
+	[Amount] [nvarchar](255) NULL,
+	[ClientIP] [nvarchar](150) NULL,
+	[ClientName] [nvarchar](150) NULL,
+	[BrowserInfo] [nvarchar](150) NULL,
+	[OperatingAddress] [nvarchar](255) NULL,
+	[OperatingTime] [datetime] NULL,
+	[OS] [nvarchar](50) NULL,
+	[CreateTime] [datetime] NOT NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Log4Net] ADD  CONSTRAINT [DF_Log4_Operatingtime]  DEFAULT (getdate()) FOR [OperatingTime]
+GO
+
+ALTER TABLE [dbo].[Log4Net] ADD  CONSTRAINT [DF_Log4_CreateTime]  DEFAULT (getdate()) FOR [CreateTime]
+GO
+
+
+ 
+ 
+
+ --   Alter TABLE  [Log4] ADD
+	--[Application] [nvarchar](255) NOT NULL,
+	--[TraceID] [nvarchar](500) NOT NULL,
+	--[EventID] [nvarchar](500) NOT NULL,
+	--[User] [nvarchar](500) NOT NULL,
+	--[Operatingtime] [datetime] NOT NULL,
+	--[Operatingaddress] [nvarchar](255) NOT NULL,
+	--[Category] [nvarchar](255) NOT NULL,
+	--[Callsite] [nvarchar](255) NOT NULL,
+	--[Requesturl] [nvarchar](255) NOT NULL,
+	--[Referrerurl] [nvarchar](255) NOT NULL,
+	--[Action] [nvarchar](255) NOT NULL,
+	--[Properties] [varchar](255) NOT NULL,
+	--[Parameters] [varchar](4000) NOT NULL,
+	--[MethodName] [varchar](10) NOT NULL,	
+	--[Stacktrace] [nvarchar](max) NULL,
+	--[Amount] [nvarchar](255) NOT NULL,
+	--[ClientIP] [nvarchar](50) NOT NULL,
+	--[ClientName] [nvarchar](50) NOT NULL,
+	--[CustomData] [nvarchar](50) NOT NULL,
+	--[ExecutionDuration] bigint ,
+	--[CreateTime] [datetime] NOT NULL
+
+
+
+
+
+        --public int? MemberId { get; set; }
+        --public string ServiceName { get; set; }
+        --public string MethodName { get; set; }
+        --public string Parameters { get; set; }
+        --public string ClientIpAddress { get; set; }
+        --public string ClientName { get; set; }
+        --public string BrowserInfo { get; set; }
+        --public string Exception { get; set; }
+        --public string ExceptionMessage { get; set; }
+        --public string CustomData { get; set; }
+        --public long ExecutionDuration { get; internal set; }
 
 
 CREATE TABLE [dbo].[NLog](
@@ -82,6 +154,17 @@ insert into NLog ([Application],[Level],TraceID,EventID,[User],Operatingtime,Ope
 values (@application,@traceId,@level,@eventId,@user,@operatingtime,@operatingaddress,@category,@logger,@callSite,@requesturl,@referrerurl,@action,@message,@exception,@stacktrace,@amount,@properties,@clientIP,@addTime);
 
 end
+
+
+
+
+
+
+
+
+
+
+
 
 
 
