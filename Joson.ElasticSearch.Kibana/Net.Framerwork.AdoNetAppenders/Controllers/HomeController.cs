@@ -88,7 +88,7 @@ namespace Net.Framerwork.AdoNetAppenders.Controllers
 
 
 
-            Monitor.Helper.LogHelper logHelper = new Monitor.Helper.LogHelper();
+            Monitor.Helper.Log4NetHelper logHelper = new Monitor.Helper.Log4NetHelper();
             logHelper.Write(new Monitor.Helper.LogEntity
             {
             

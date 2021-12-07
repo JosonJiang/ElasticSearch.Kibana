@@ -28,8 +28,5 @@ namespace Net.Monitor.Helper
         public string StackTrace { get; internal set; }
         public Object CustomData { get; set; }
         public long ExecutionDuration { get; internal set; }
-
- 
-
     }
 }

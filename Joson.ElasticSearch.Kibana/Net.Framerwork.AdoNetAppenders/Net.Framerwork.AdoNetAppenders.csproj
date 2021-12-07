@@ -153,7 +153,7 @@
     <Compile Include="aNet.Monitor.Helper\HttpContextClient.cs" />
     <Compile Include="aNet.Monitor.Helper\LogEntity.cs" />
     <Compile Include="aNet.Monitor.Helper\LogHelper.cs" />
-    <Compile Include="aNet.Monitor.Helper\ActionFilter.cs" />
+    <Compile Include="aNet.Monitor.Helper\FilterAttribute\Log4NetActionFilter.cs" />
     <Compile Include="aNet.Monitor.Helper\WebApiMonitor.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />

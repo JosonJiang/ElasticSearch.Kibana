@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fWSVtChsR4s3HQZtglyB7sJCDQkAZBtTv+ERyO+SaU7GTeLZC8UprRbckMIXyzExtfUVtPtB/WyZObtiBUUDbw==",
+  "dgSpecHash": "3mqNp5Oa2RWT+fmEokXGHIOirHQMDji+nWPFcDMqkUYKOtqjViW11lyIyAJIqJ24NaDcgzoHv9p0OlCIAeI9qw==",
   "success": true,
   "projectFilePath": "E:\\Joson\\Net.Core\\ElasticSearch.Kibana\\Joson.ElasticSearch.Kibana\\Elastic.Kibana.Serilog\\Elastic.Kibana.Serilog\\Elastic.Kibana.Serilog.csproj",
   "expectedPackageFiles": [

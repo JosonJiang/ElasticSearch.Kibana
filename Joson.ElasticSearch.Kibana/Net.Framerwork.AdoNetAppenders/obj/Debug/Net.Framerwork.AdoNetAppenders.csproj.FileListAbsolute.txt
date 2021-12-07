@@ -78,8 +78,8 @@ E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Net.Framerwork
 E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Net.Framerwork.AdoNetAppenders\bin\zh-Hans\System.Web.WebPages.resources.dll
 E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Net.Framerwork.AdoNetAppenders\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Net.Framerwork.AdoNetAppenders\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
-E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Net.Framerwork.AdoNetAppenders\obj\Debug\Net.Framerwork.AdoNetAppenders.csprojAssemblyReference.cache
 E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Net.Framerwork.AdoNetAppenders\obj\Debug\Net.Framerwork.AdoNetAppenders.csproj.CoreCompileInputs.cache
 E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Net.Framerwork.AdoNetAppenders\obj\Debug\Net.Framerwork.AdoNetAppenders.csproj.CopyComplete
 E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Net.Framerwork.AdoNetAppenders\obj\Debug\Net.Framerwork.AdoNetAppenders.dll
 E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Net.Framerwork.AdoNetAppenders\obj\Debug\Net.Framerwork.AdoNetAppenders.pdb
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Net.Framerwork.AdoNetAppenders\obj\Debug\Net.Framerwork.AdoNetAppenders.csprojAssemblyReference.cache

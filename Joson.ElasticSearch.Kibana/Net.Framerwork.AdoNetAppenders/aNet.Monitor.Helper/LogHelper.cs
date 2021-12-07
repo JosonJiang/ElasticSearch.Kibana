@@ -13,7 +13,7 @@ namespace Net.Monitor.Helper
 {
 
 
-    public class LogHelper
+    public class Log4NetHelper
     {
         #region LogManager
 
@@ -49,8 +49,8 @@ namespace Net.Monitor.Helper
         #region WriteLogEntity
 
         public static string ConfigFilePath = AppDomain.CurrentDomain.BaseDirectory + @"/Properties/log4net.config";
-        public static LogHelper logHelper = new LogHelper();
-        public LogHelper()
+        public static Log4NetHelper logHelper = new Log4NetHelper();
+        public Log4NetHelper()
         {
             XmlConfigurator.Configure();
         }
@@ -142,7 +142,7 @@ namespace Net.Monitor.Helper
         public static LogEncapsulation logEncapsulation = new LogEncapsulation();
         static LogEncapsulation()
         {
-            string path = LogHelper.ConfigFilePath;
+            string path = Log4NetHelper.ConfigFilePath;
             log4net.Config.XmlConfigurator.Configure(new FileInfo(path));
         }
         private static ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
