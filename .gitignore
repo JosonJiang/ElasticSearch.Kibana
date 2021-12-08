@@ -5,14 +5,36 @@
 *.userosscache
 *.sln.docstates
 
+*.log
+
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.snv
+.git
+.vs
+
+
 obj
 bin
+packages
 
 
-# git rm -r --cached vscode
-.vscode/*
-# 强制添加要忽略文件夹内的文件
-!.vs/v14
+**/bin
+**/obj
+**/packages
+
+**/.vs
+**/.vscode
+**/.svn
+**/.git
+**/.vs
+
+**/Logs/
+**/logsFile/
+**/LogFiles/
+**/*.log
 
 # git rm -r --cached .vs
 .vs
@@ -44,3 +66,18 @@ bld/
 # Visual Studio 2015 cache/options directory
 .vs/
 # Uncomment if you have tasks that create the
+
+
+# git rm -r --cached vscode
+.vscode/*
+# 强制添加要忽略文件夹内的文件
+!.vs/v14
+
+# #忽略gitignore文件
+# .gitignore  
+# 不忽悠文件
+!.gitignore
+
+
+
+
