@@ -1,0 +1,10 @@
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Joson.ElasticSearch.Kibana.ConsoleApps\bin\Debug\Joson.ElasticSearch.Kibana.ConsoleApps.exe.config
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Joson.ElasticSearch.Kibana.ConsoleApps\bin\Debug\Joson.ElasticSearch.Kibana.ConsoleApps.exe
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Joson.ElasticSearch.Kibana.ConsoleApps\bin\Debug\Joson.ElasticSearch.Kibana.ConsoleApps.pdb
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Joson.ElasticSearch.Kibana.ConsoleApps\bin\Debug\log4net.dll
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Joson.ElasticSearch.Kibana.ConsoleApps\bin\Debug\log4net.ElasticSearch.dll
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Joson.ElasticSearch.Kibana.ConsoleApps\bin\Debug\Newtonsoft.Json.dll
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Joson.ElasticSearch.Kibana.ConsoleApps\obj\Debug\Joson.ElasticSearch.Kibana.ConsoleApps.csproj.CoreCompileInputs.cache
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Joson.ElasticSearch.Kibana.ConsoleApps\obj\Debug\Joson.ElasticSearch.Kibana.ConsoleApps.csproj.CopyComplete
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Joson.ElasticSearch.Kibana.ConsoleApps\obj\Debug\Joson.ElasticSearch.Kibana.ConsoleApps.exe
+E:\Joson\Net.Core\ElasticSearch.Kibana\Joson.ElasticSearch.Kibana\Joson.ElasticSearch.Kibana.ConsoleApps\obj\Debug\Joson.ElasticSearch.Kibana.ConsoleApps.pdb
